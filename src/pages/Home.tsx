@@ -6,7 +6,7 @@ import AnimatedCounter from '../components/AnimatedCounter';
 import NewsTicker from '../components/NewsTicker';
 import { useNavigate } from 'react-router-dom';
 import JoinUs from '../pages/JoinUs';
-import projectVideo from '../assets/project_vid.mp4'; // 👈 correct import path
+//import projectVideo from '../assets/project_vid.mp4'; // 👈 correct import path
 
 
 const Home = () => {
@@ -186,7 +186,7 @@ const Home = () => {
                 </span>
               </h2>
               <p className="text-lg text-gray-400">
-                At μCR, we're not just building robots – we're building the future. Our community
+                At μCR, we're not just building robots - we're building the future. Our community
                 of passionate engineers, programmers, and innovators work together to push the
                 boundaries of what's possible in robotics and embedded systems.
               </p>
@@ -215,7 +215,7 @@ const Home = () => {
 >
   <div className="aspect-video bg-black rounded-lg overflow-hidden relative">
     <video
-  src={projectVideo}
+  src="https://youtu.be/yf8ob7P_lz8"
   controls
   loop
   muted
