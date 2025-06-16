@@ -616,26 +616,31 @@ useEffect(() => {
 
                 {/* Domain Preferences */}
                 <div>
-                  <label className="block text-white font-medium mb-4">
-                    Domain Preferences (Rank all {domains.length} domains in order of preference) *
-                  </label>
+  <label className="block text-white font-medium mb-4">
+    Domain Preferences (Rank all {domains.length} domains in order of preference) *
+  </label>
 
-                  {/* Available Domains */}
-                  <div className="mb-6">
-                    <h4 className="text-sm font-medium text-gray-300 mb-3">Available Domains (Click to add):</h4>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                      {domains.filter((domain) => !formData.domains.includes(domain)).map((domain) => (
-                        <button
-                          key={domain}
-                          type="button"
-                          onClick={() => handleDomainRanking(domain, 'add')}
-                          className="p-3 rounded-lg border border-gray-600 bg-gray-700 text-gray-300 hover:border-violet-500/50 hover:bg-gray-600 transition-all duration-300"
-                        >
-                          {domain}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
+  {/* Available Domains */}
+  <div className="mb-6">
+    <h4 className="text-sm font-medium text-gray-300 mb-3">
+      Available Domains <span className="text-xs text-gray-500">(Click to add):</span>
+    </h4>
+
+    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      {domains
+        .filter((domain) => !formData.domains.includes(domain))
+        .map((domain) => (
+          <button
+            key={domain}
+            type="button"
+            onClick={() => handleDomainRanking(domain, 'add')}
+            className="w-full px-4 py-2 rounded-lg border border-gray-600 bg-gray-700 text-gray-300 hover:border-violet-400 hover:bg-gray-600 transition-all duration-300 text-sm text-center"
+          >
+            {domain}
+          </button>
+        ))}
+    </div>
+  </div>
 
                   {/* Selected Domains with Ranking */}
                   {formData.domains.length > 0 && (
