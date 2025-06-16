@@ -58,7 +58,7 @@ const Events = () => {
       description: "The 3-day Orientation Workshop on Manual Robotics 2024 introduced freshers to the fundamentals of robotic design, mechanical systems, and control. With hands-on sessions and guided activities, participants gained practical experience in building and operating basic manually controlled robots.",
       gallery: {
       thumbnail: img1,
-      driveLink: "https://drive.google.com/drive/folders/1Fal1-aPJLTO-k0qB17YSsRX0xjSDkyPR?usp=sharing"
+      driveLink: "https://photos.app.goo.gl/4rowTGxULbvVbJkE7"
       }
     },
     {
