@@ -52,7 +52,7 @@ const Events = () => {
   const pastEvents = [
     {
       id: 10,
-      title: "Orientation Workshop 2024",
+      title: "Orientation Workshop 2k24",
       date: "2024-09-11",
       participants: 270,
       description: "The 3-day Orientation Workshop on Manual Robotics 2024 introduced freshers to the fundamentals of robotic design, mechanical systems, and control. With hands-on sessions and guided activities, participants gained practical experience in building and operating basic manually controlled robots.",
@@ -63,9 +63,9 @@ const Events = () => {
     },
       {
   id: 9,
-  title: "Project Exhibition 2024",
+  title: "Project Exhibition 2k24",
   date: "2024-10-03",
-  participants: 200,
+  participants: 350,
   description: "Project Exhibition 2024 was a vibrant annual showcase where students presented innovative projects in robotics, automation, and embedded systems, demonstrating practical solutions, creative thinking, and technological advancement to peers, mentors, and industry experts.",
   gallery: {
     thumbnail: img2,
@@ -74,9 +74,9 @@ const Events = () => {
 },
     {
       id: 8,
-      title: "Spectra 2024",
+      title: "Spectra 2k24",
       date: "2024-11-17",
-      participants: 300,
+      participants:250,
       description: "Spectra 2024 was an engaging hovercraft design and racing competition where teams engineered and raced their own crafts on a timed track. Pushpak Viman stood out with superior design and control, securing the first place in the challenge.",
       gallery: {
       thumbnail: img3,
@@ -85,9 +85,9 @@ const Events = () => {
     },
     {
       id: 7,
-      title: "Synergy 2025",
+      title: "Synergy 2k25",
       date: "2025-03-01",
-      participants: 250,
+      participants: 200,
       description: "Synergy 2025 featured Circuit Rush, a time-based pick-and-place robotics challenge, and Machine Mirage, an innovative idea pitching event. The competition highlighted participants' engineering precision, creativity, and problem-solving abilities in a dynamic and engaging environment.",
       gallery: {
       thumbnail: img5,

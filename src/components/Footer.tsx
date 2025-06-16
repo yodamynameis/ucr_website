@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord } from "react-icons/fa";
 import { MapPin, Clock, Mail, } from 'lucide-react';
 import Logo from './Logo';
+import { Link } from "react-router-dom";
+import  ScrollToTop  from "./ScrollToTop";
 
 const Footer = () => {
   return (
@@ -18,12 +20,34 @@ const Footer = () => {
           >
       <div className="flex items-start space-x-4">
   <div className="w-14 h-14 flex-shrink-0">
+    <Link
+  to="/"
+  onClick={(e) => {
+    if (location.pathname === "/") {
+      e.preventDefault(); // prevent redundant navigation
+      window.scrollTo({ top: 0, behavior: "smooth" }); // manually trigger scroll
+    }
+  }}
+  className="w-fit"
+>
     <Logo />
+    </Link>
   </div>
   <div className="flex flex-col max-w-md">
-    <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-violet-400 to-electric-400 bg-clip-text text-transparent">
+<Link
+  to="/"
+  onClick={(e) => {
+    if (location.pathname === "/") {
+      e.preventDefault(); // prevent redundant navigation
+      window.scrollTo({ top: 0, behavior: "smooth" }); // manually trigger scroll
+    }
+  }}
+  className="w-fit"
+>
+      <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-violet-400 to-electric-400 bg-clip-text text-transparent">
       Microcontroller-Based Systems & Robotics Hub
     </span>
+    </Link>
     <p className="text-gray-400 text-sm mt-1">
       More than a hub, No less than a legacy.
     </p>
