@@ -18,6 +18,9 @@ const ParticleBackground: React.FC = () => {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
 
+    // 💡 Detect if device is mobile based on screen width
+    const isMobile = window.innerWidth < 768;
+
     const particles: Array<{
       x: number;
       y: number;
@@ -28,17 +31,19 @@ const ParticleBackground: React.FC = () => {
       color: string;
     }> = [];
 
-    // Updated neon-style color palette
     const colors = [
-      '#7F5AF0', // Soft Purple
-      '#3B82F6', // Soft Blue
-      '#72F6FF', // Aqua Neon
-      '#C084FC', // Orchid Neon
-      '#8B5CF6', // Violet
-      '#60A5FA'  // Light Indigo
+      '#7F5AF0',
+      '#3B82F6',
+      '#72F6FF',
+      '#C084FC',
+      '#8B5CF6',
+      '#60A5FA'
     ];
 
-    for (let i = 0; i < 120; i++) {
+    // 🎯 Adjust number of particles based on device
+const particleCount = isMobile ? 25 : 120;
+
+    for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
