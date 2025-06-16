@@ -103,7 +103,7 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-gray-900/95 backdrop-blur-lg"
         >
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 margin-top-2">
             {navItems.map((item) => (
               <Link
                 key={item.name}
