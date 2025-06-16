@@ -80,7 +80,7 @@ const Events = () => {
       description: "Spectra 2024 was an engaging hovercraft design and racing competition where teams engineered and raced their own crafts on a timed track. Pushpak Viman stood out with superior design and control, securing the first place in the challenge.",
       gallery: {
       thumbnail: img3,
-      driveLink: "https://drive.google.com/drive/folders/148z7xnOTzzuDiczxJa1lGBec7tQLmTRd?usp=sharing"
+      driveLink: "https://photos.app.goo.gl/9GcVX8SWcUhPTSm97"
       }
     },
     {
@@ -91,7 +91,7 @@ const Events = () => {
       description: "Synergy 2025 featured Circuit Rush, a time-based pick-and-place robotics challenge, and Machine Mirage, an innovative idea pitching event. The competition highlighted participants' engineering precision, creativity, and problem-solving abilities in a dynamic and engaging environment.",
       gallery: {
       thumbnail: img5,
-      driveLink: "https://drive.google.com/drive/folders/1QRMW-LgaDceMxYOKwgQo0K9uu0til_e-?usp=sharing"
+      driveLink: "https://photos.app.goo.gl/GfWHXMVv28scDRNm6"
       }
     }
   ];
