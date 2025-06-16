@@ -652,14 +652,12 @@ useEffect(() => {
                             key={domain}
                             className="flex items-center justify-between p-4 bg-gradient-to-r from-violet-500/20 to-electric-500/20 border border-violet-500/30 rounded-lg"
                           >
-                            <div className="flex items-center space-x-3">
-                              <div className="w-8 h-8 bg-gradient-to-r from-violet-500 to-electric-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
-                                {index + 1}
-                              </div>
-                              <span className="text-white font-medium">{domain}</span>
-                              <span className="text-xs text-gray-400">
-                                {index === 0 ? '(Most Preferred)' : index === formData.domains.length - 1 ? '(Least Preferred)' : ''}
-                              </span>
+                            <div className="flex items-center space-x-3 w-full">
+  <div className="w-8 h-8 flex-shrink-0 bg-gradient-to-r from-violet-500 to-electric-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+    {index + 1}
+  </div>
+  <span className="text-white font-medium text-sm truncate max-w-[120px] sm:max-w-[180px] md:max-w-[220px]">
+    {domain}</span>
                             </div>
                             <div className="flex items-center space-x-2">
                               <button
