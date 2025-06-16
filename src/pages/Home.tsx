@@ -215,12 +215,13 @@ const Home = () => {
 >
   <div className="aspect-video bg-black rounded-lg overflow-hidden relative">
     <iframe
-      src="https://www.youtube.com/embed/yf8ob7P_lz8?autoplay=1&mute=1&loop=1&playlist=yf8ob7P_lz8"
-      title="YouTube video"
-      allow="autoplay; encrypted-media"
-      allowFullScreen
-      className="w-full h-full"
-    ></iframe>
+  src="https://www.youtube.com/embed/yf8ob7P_lz8?mute=1&loop=1&playlist=yf8ob7P_lz8"
+  title="YouTube video"
+  allow="autoplay; encrypted-media"
+  allowFullScreen
+  className="w-full h-full"
+></iframe>
+
   </div>
 </motion.div>
           </div>

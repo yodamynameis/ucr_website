@@ -61,17 +61,17 @@ const Events = () => {
       driveLink: "https://photos.app.goo.gl/4rowTGxULbvVbJkE7"
       }
     },
-    {
-      id: 9,
-      title: "Project Exhibition 2024",
-      date: "2024-10-03",
-      participants: 200,
-      description: "Project Exhibition 2024 was a vibrant annual showcase where students presented innovative projects in robotics, automation, and embedded systems, demonstrating practical solutions, creative thinking, and technological advancement to peers, mentors, and industry experts.",
-      gallery: {
-      thumbnail: img2,
-      driveLink: "https://drive.google.com/drive/folders/1s3uryVEJLJoMX222vyYGpg4_k4aMx96G?usp=sharing"
-      }
-    },
+      {
+  id: 9,
+  title: "Project Exhibition 2024",
+  date: "2024-10-03",
+  participants: 200,
+  description: "Project Exhibition 2024 was a vibrant annual showcase where students presented innovative projects in robotics, automation, and embedded systems, demonstrating practical solutions, creative thinking, and technological advancement to peers, mentors, and industry experts.",
+  gallery: {
+    thumbnail: img2,
+    driveLink: "https://drive.google.com/drive/folders/1s3uryVEJLJoMX222vyYGpg4_k4aMx96G?usp=sharing"
+  }
+},
     {
       id: 8,
       title: "Spectra 2024",
