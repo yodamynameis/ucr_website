@@ -133,6 +133,7 @@ const KnowledgeHub = () => {
       id: 1,
       title: "Working with Arduino",
       author: "Sanskar Phougat",
+      insta: "https://www.instagram.com/sanskar__phougat/",
       date: "2025-06-18",
       category: "Robotics",
       tags: ["Arduino", "Sensors", "Autonomous Navigation"],
@@ -371,7 +372,7 @@ const KnowledgeHub = () => {
                     <div className="flex items-center space-x-4">
                       <div className="flex items-center space-x-1">
                         <Calendar className="w-4 h-4" />
-                        <span>{new Date(blog.date).toLocaleDateString()}</span>
+                        <span>{new Date(blog.date).toLocaleDateString("en-GB")}</span>
                       </div>
                       
                     </div>
@@ -400,7 +401,15 @@ const KnowledgeHub = () => {
 
                   <div className="flex items-center justify-between pt-4 border-t border-gray-700">
                     <div className="text-sm text-gray-400">
-                      By <span className="text-violet-400">{blog.author}</span>
+                      By{" "}
+                      <a
+                        href={blog.insta}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-violet-400 hover:underline"
+                      >
+                        {blog.author}
+                        </a>
                     </div>
  <Link
   to={`/blog/${blog.id}`}

@@ -3,8 +3,9 @@ export const blogs = [
     id: 1,
     title: "Working with Arduino",
     image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D",
+    insta: "https://www.instagram.com/sanskar__phougat/",
     date: "2025-06-18",
-    readTime: "10 min read",
+    readTime: "8 min read",
     excerpt: "Explore how Arduino is transforming the world of electronics and robotics...",
  content: `
 # 🛠️ Working with Arduino: A Beginner's Guide
@@ -39,7 +40,8 @@ Arduino comes with its own IDE (Integrated Development Environment), where you w
 - USB cable
 - Breadboard and jumper wires
 - Components like LEDs, resistors, sensors
-- Arduino IDE (download from https://www.arduino.cc/en/software)
+- Arduino IDE (download from <a href="https://www.arduino.cc/en/software" target="_blank" rel="noopener noreferrer">arduino.cc</a>)
+
 
 ### 🔌 Setup Steps:
 1. **Install the Arduino IDE.**

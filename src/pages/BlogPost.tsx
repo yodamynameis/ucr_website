@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm';
 import ReactMarkdown from "react-markdown";
 import { blogs } from "../data/blogs";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
+import rehypeRaw from "rehype-raw";
 
 export default function BlogPost() {
   const { id } = useParams();
@@ -29,7 +30,7 @@ export default function BlogPost() {
         <div className="flex items-center text-sm text-gray-400 mb-6 space-x-4">
           <div className="flex items-center space-x-1">
             <Calendar className="w-4 h-4" />
-            <span>{new Date(blog.date).toLocaleDateString()}</span>
+            <span>{new Date(blog.date).toLocaleDateString("en-GB")}</span>
           </div>
           <span>{blog.readTime}</span>
         </div>
@@ -54,12 +55,23 @@ export default function BlogPost() {
         </div>
 
         <div className="mt-6 text-sm text-gray-400">
-          Written by <span className="text-violet-400">{blog.author}</span>
+                Written by{" "}
+                <a
+                  href={blog.insta}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-violet-400 hover:underline"
+                >
+                  {blog.author}
+                </a>
         </div><br />
 <div className="prose prose-invert max-w-none text-gray-300 mb-6">
-  <ReactMarkdown remarkPlugins={[remarkGfm]}>
-    {blog.content}
-  </ReactMarkdown>
+ <ReactMarkdown
+  remarkPlugins={[remarkGfm]}
+  rehypePlugins={[rehypeRaw]}
+  >
+  {blog.content}
+</ReactMarkdown>
 </div>
 
       </article>
