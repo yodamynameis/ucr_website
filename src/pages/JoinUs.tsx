@@ -103,15 +103,15 @@ const [formData, setFormData] = useState<FormDataType>({
 
 
   const branches = [
-    'Computer Science Engineering',
-    'Electronics & Communication Engineering',
-    'Electrical Engineering',
-    'Mechanical Engineering',
-    'Civil Engineering',
-    'Chemical Engineering',
-    'Aerospace Engineering',
-    'Industrial Engineering',
-    'Information Technology',
+    'CSE',
+    'ECE',
+    'ECM',
+    'IT',
+    'EC-VLSI',
+    'EC-ACT',
+    'M&C',
+    'BioTech',
+    'BBA',
     'Other'
   ];
   const domains = [

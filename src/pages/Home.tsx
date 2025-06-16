@@ -5,8 +5,8 @@ import { Users, Trophy, Calendar, Cpu, Zap } from 'lucide-react';
 import AnimatedCounter from '../components/AnimatedCounter';
 import NewsTicker from '../components/NewsTicker';
 import { useNavigate } from 'react-router-dom';
-import JoinUs from '../pages/JoinUs';
-//import projectVideo from '../assets/project_vid.mp4'; // 👈 correct import path
+//import JoinUs from '../pages/JoinUs';
+
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
     { icon: Users, value: 200, label: 'Proud Alumni', suffix: '+' },
     { icon: Calendar, value: 50, label: 'Past Events', suffix: '+' }, //changes 
     { icon: Trophy, value: 20, label: 'Competitions Conquered', suffix: '+' }, // 20+ Achievements
-    { icon: Zap, value: 20, label: 'Years of Excellence', suffix: '+' },
+    { icon: Zap, value: 20, label: 'Years of Excellence' },
   ];
 
   return (
@@ -75,7 +75,7 @@ const Home = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
             >
               More than a hub,<br />
-              No less than a legacy.
+              No less than a legacy.
             </motion.p>
 
             <motion.div

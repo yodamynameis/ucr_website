@@ -32,7 +32,7 @@ const Events = () => {
       location: "Virtual" ,
       category: "interview",
       //participants: ,
-      description: "Interviews to onboard passionate volunteers for the 2025–26 tenure for all departments.",
+      description: "Interviews to onboard passionate volunteers for the 2025-26 tenure for all departments.",
       image: interviewImg
     }
     // {
@@ -54,7 +54,7 @@ const Events = () => {
       id: 10,
       title: "Orientation Workshop 2024",
       date: "2024-09-11",
-      participants: 300,
+      participants: 270,
       description: "The 3-day Orientation Workshop on Manual Robotics 2024 introduced freshers to the fundamentals of robotic design, mechanical systems, and control. With hands-on sessions and guided activities, participants gained practical experience in building and operating basic manually controlled robots.",
       gallery: {
       thumbnail: img1,
@@ -287,7 +287,7 @@ const Events = () => {
                 </h3>
                 <div className="flex items-center justify-between text-sm text-gray-500">
                   <span>{formatDate(event.date)}</span>
-                  <span>{event.participants} attended</span>
+                  <span>{event.participants}+ attended</span>
                 </div>
               </div>
             }
