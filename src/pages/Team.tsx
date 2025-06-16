@@ -45,10 +45,10 @@ const Team = () => {
       branch: "Electronics & Communication Engineering",
       image: ayush_d, 
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
-      github: "https://github.com",       //change
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
-      email: "rajesh.kumar@university.edu"
+      github: "https://github.com/ayushdubey85",       //change
+      linkedin: "http://www.linkedin.com/in/ayush-dubey-122a75271",
+      instagram: "hhttps://www.instagram.com/ayushdubey85/",
+      email: "ayushdubeyjal63@gmail.com"
     },
     {
       id: 3,
