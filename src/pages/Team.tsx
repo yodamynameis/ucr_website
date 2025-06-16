@@ -47,7 +47,7 @@ const Team = () => {
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       github: "https://github.com/ayushdubey85",       //change
       linkedin: "http://www.linkedin.com/in/ayush-dubey-122a75271",
-      instagram: "hhttps://www.instagram.com/ayushdubey85/",
+      instagram: "https://www.instagram.com/ayushdubey85",
       email: "ayushdubeyjal63@gmail.com"
     },
     {
@@ -60,7 +60,7 @@ const Team = () => {
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       github: "https://www.github.com/r1ashwin",       //change
       linkedin: "https://www.linkedin.com/in/r1ashwin ",
-      instagram: " https://www.instagram.com/r1ashwin",
+      instagram: "https://www.instagram.com/r1ashwin",
       email: "r1ashwindeshpande@gmail.com "
     },
        {
@@ -73,7 +73,7 @@ const Team = () => {
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       //github: "https://github.com",       //change
       linkedin: "https://www.linkedin.com/in/ayush-pandey-b86659291",
-      instagram: "instagram.com/ayush_10.2",
+      instagram: "https://www.instagram.com/ayush_10.2",
       email: "ayush.pandeyy10.2@gmail.com "
     },
   ];
@@ -128,10 +128,10 @@ const Team = () => {
       branch: "Electronics & Communication Engineering",
       image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
       bio: "Manages finances with integrity, transparency, and precision, ensuring smooth operations and sustainable growth.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/sanskar-bot",
+      linkedin: "https://www.linkedin.com/in/sanskar-phougat",
       instagram: "https://www.instagram.com/sanskar__phougat/",
-      email: "kavya.reddy@student.edu"
+      email: "sanskarphougat2004@gmail.com"
     },
      // Technical Team
     {
@@ -202,15 +202,15 @@ const Team = () => {
       {
       id: 15,
       name: "Kamna Thakur",
-      role: "Technical Head",
-      category: "tech",
+      role: "128 Head",
+      category: "leadership",
       branch: "Computer Science Engineering",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
       bio: "Mechanical design expert with focus on robotic kinematics and dynamics.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
-      email: "kamna@gmail.com"
+      github: "https://github.com/Kamna22",
+      linkedin: "https://www.linkedin.com/in/kamna-thakur-6037462a1/",
+      instagram: "https://www.instagram.com/kamnaaa_22",
+      email: "thakurkamna22@gmail.com"
     },
     
 
@@ -223,9 +223,9 @@ const Team = () => {
       branch: "Computer Science Engineering",
      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
       bio: "Supervises robotics initiatives, drives embedded systems excellence, and ensures smooth hub operations.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
+      github: "https://github.com/Shivansh3127",
+      linkedin: "https://www.linkedin.com/in/shivansh-agarwal-b79b802a6",
+      instagram: "https://www.instagram.com/_shivansh.agarwal_/",
       email: "shivansh3127@gmail.com"
     },
         {
@@ -238,7 +238,7 @@ const Team = () => {
       bio: "Excels in organizing, streamlining operations, and ensuring smooth execution with sharp strategy and leadership.",
       github: "https://github.com/arjun-1703",
       linkedin: "https://www.linkedin.com/in/arjun-gupta-74b726286",
-      instagram: "https://www.linkedin.com/in/arjun-gupta-74b726286",
+      instagram: "https://www.instagram.com/arjunn._.04/",
       email: "arjgupta05@gmail.com"
     },
         {
