@@ -496,10 +496,10 @@ const MemberCard = ({ member, index = 0 }: MemberCardProps) => (      <motion.di
       member.category === 'tech' ? 'bg-red-500/20 text-red-400' :
       member.category === 'finance' ? 'bg-green-500/20 text-green-400' :
       member.category === 'management' ? 'bg-blue-500/20 text-blue-400' :
-      member.category === 'marketing' ? 'bg-yellow-500/20 text-yellow-400' :
+      member.category === 'creative' ? 'bg-pink-500/20 text-pink-400' :
       member.category === 'digital' ? 'bg-teal-500/20 text-teal-400' :
       member.category === 'cinematography' ? 'bg-teal-500/20 text-teal-400' :
-      'bg-pink-500/20 text-pink-400'
+      'bg-yellow-500/20 text-yellow-400'
     }`}>
       {member.category.charAt(0).toUpperCase() + member.category.slice(1)}
     </span>
