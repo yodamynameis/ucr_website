@@ -90,7 +90,7 @@ const Home = () => {
             onClick={() => navigate('/joinus')}
             className="px-8 py-4 bg-gradient-to-r from-violet-500 to-electric-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            Join Our Community
+            Apply to Join μCR
             </motion.button>
 
               {/* <motion.button

@@ -111,13 +111,26 @@ const Team = () => {
       name: "Krishna Gupta",
       role: "Secretary",
       category: "leadership",
-      branch: "Computer Science and Engineering",
+      branch: "Computer Science Engineering",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
       bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
       github: "https://github.com/krishnagupta03",
       linkedin: "http://linkedin.com/in/krishna-gupta-031411303",
       instagram: "https://www.instagram.com/krishna.x18",
       email: "krishna30.k30@gmail.com"
+    },
+       {
+      id: 15,
+      name: "Kamna Thakur",
+      role: "128 Head",
+      category: "leadership",
+      branch: "Computer Science Engineering",
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      bio: "Mechanical design expert with focus on robotic kinematics and dynamics.",
+      github: "https://github.com/Kamna22",
+      linkedin: "https://www.linkedin.com/in/kamna-thakur-6037462a1/",
+      instagram: "https://www.instagram.com/kamnaaa_22",
+      email: "thakurkamna22@gmail.com"
     },
       // Finance Team
     {
@@ -199,21 +212,6 @@ const Team = () => {
       instagram: "https://www.instagram.com/ayushagrawal1839/",
       email: "ayush.2601agrawal@gmail.com"
     },
-      {
-      id: 15,
-      name: "Kamna Thakur",
-      role: "128 Head",
-      category: "leadership",
-      branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
-      bio: "Mechanical design expert with focus on robotic kinematics and dynamics.",
-      github: "https://github.com/Kamna22",
-      linkedin: "https://www.linkedin.com/in/kamna-thakur-6037462a1/",
-      instagram: "https://www.instagram.com/kamnaaa_22",
-      email: "thakurkamna22@gmail.com"
-    },
-    
-
     // Management Team
     {
       id: 16,
