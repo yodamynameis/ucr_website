@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, User, Mail, Phone, GraduationCap, MapPin, Heart, Hash, Info,ArrowUp, ArrowDown,Clock, Calendar, AlertCircle } from 'lucide-react';
+import { Send, User, Mail, Phone, GraduationCap, MapPin, Heart, Hash, Info,ArrowUp, ArrowDown,Clock, Calendar, AlertCircle, Link } from 'lucide-react';
 import  db  from "../firebase"; // adjust path if needed
 import { collection, addDoc } from "firebase/firestore";
 import { useEffect } from 'react';
@@ -105,6 +105,7 @@ const [formData, setFormData] = useState<FormDataType>({
   const branches = [
     'CSE',
     'ECE',
+    'Int. CSE',
     'ECM',
     'IT',
     'EC-VLSI',
@@ -453,7 +454,7 @@ useEffect(() => {
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm">Drive link (portfolio/project showcase) is optional, but recommended for applicants interested in the <strong>Digital Domain</strong>  and <strong>Technical Domain</strong> for showcasing past work and personal projects.</p>
+        <p className="text-sm">Drive link (portfolio/project showcase) is optional, but recommended for applicants interested in the <strong>Digital Domain</strong>, <strong>Cinematography</strong> or <strong>Technical Domain</strong> for showcasing past work and personal projects.</p>
       </div>
     </div>
   </div>
@@ -557,8 +558,23 @@ useEffect(() => {
                       <option value="dayscholar">Day Scholar</option>
                     </select>
                   </div>
+               
+               {/* Drive Link Input (Optional) */}
+                <div>
+                  <label className="block text-white font-medium mb-2">
+                    <Link className="w-4 h-4 inline mr-2" />
+                    Drive Link to Past Work (optional)
+                  </label>
+                  <input
+                    type="url"
+                    name="driveLink"
+                    value={formData.driveLink}
+                    onChange={handleInputChange}
+                    placeholder="https://drive.google.com/..."
+                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-violet-500 transition-colors"
+                  />
                 </div>
-
+                 </div>
                 {/* Academic Information */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -597,21 +613,6 @@ useEffect(() => {
                       className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-violet-500 transition-colors"
                     />
                   </div>
-                </div>
-
-                {/* Drive Link Input (Optional) */}
-                <div className="mt-6">
-                  <label className="block text-white font-medium mb-2">
-                    Drive Link to Past Work (optional)
-                  </label>
-                  <input
-                    type="url"
-                    name="driveLink"
-                    value={formData.driveLink}
-                    onChange={handleInputChange}
-                    placeholder="https://drive.google.com/..."
-                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-violet-500 transition-colors"
-                  />
                 </div>
 
                 {/* Domain Preferences */}
