@@ -4,7 +4,6 @@ import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord } from "react-icons/f
 import { MapPin, Clock, Mail, } from 'lucide-react';
 import Logo from './Logo';
 import { Link } from "react-router-dom";
-import  ScrollToTop  from "./ScrollToTop";
 
 const Footer = () => {
   return (
