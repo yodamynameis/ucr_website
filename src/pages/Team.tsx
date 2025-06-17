@@ -168,10 +168,10 @@ const Team = () => {
       branch: "Computer Science Engineering",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
       bio: "Innovates and engineers RC planes with precision, vision, and impact-driven design.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
-      email: "rishabh@gmail.com"
+      github: "https://github.com/Kapurrrishabh",
+      linkedin: "https://www.linkedin.com/in/rishabh-kapur/",
+      instagram: "https://www.instagram.com/rishabh.kapur/",
+      email: "kapur.rishabh13102003@gmail.com"
     },
       {
       id: 12,
@@ -343,10 +343,10 @@ const Team = () => {
       branch: "Electronics & Communication Engineering",
       image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
       bio: "Oversees design, aesthetics, and creative media for robotics events, workshops, and public engagement.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
-      email: "mahima@student.edu"
+      github: "https://github.com/Mahima9186",
+      linkedin: "https://www.linkedin.com/in/mahima-ancy-verghese-75214b370",
+      instagram: "https://www.instagram.com/ancy.mahima",
+      email: "mahima.ancy@gmail.com"
     },
       {
       id: 26,
@@ -471,44 +471,41 @@ const MemberCard = ({ member, index = 0 }: MemberCardProps) => (      <motion.di
 </div>
 
         {/* Member Info */}
-        <div className="p-6 space-y-3">
-          <div>
-            <h3 className="text-lg font-semibold text-white group-hover:text-violet-400 transition-colors duration-300">
-              {member.name}
-            </h3>
-            <p className="text-violet-400 font-medium text-sm">{member.role}</p>
-          </div>
-  
-          {/* {member.department && (
-            <p className="text-gray-400 text-sm">{member.department}</p>
-          )}
-   */}
-          {member.branch && (
-            <div className="text-sm text-gray-400">
-              <p>{member.branch}</p>
-              {/* <p>{member.batch}</p> */}
-            </div>
-          )}
-  
-          <p className="text-gray-400 text-xs leading-relaxed">{member.bio}</p>
-  
-          {/* Role Badge */}
-          <div className="pt-2">
-            <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-              member.category === 'faculty' ? 'bg-cyan-500/20 text-cyan-400' :
-              member.category === 'leadership' ? 'bg-violet-500/20 text-violet-400' :
-              member.category === 'tech' ? 'bg-red-500/20 text-red-400' :
-              member.category === 'finance' ? 'bg-green-500/20 text-green-400' :
-              member.category === 'management' ? 'bg-blue-500/20 text-blue-400' :
-              member.category === 'marketing' ? 'bg-yellow-500/20 text-yellow-400' :
-              member.category === 'digital' ? 'bg-teal-500/20 text-teal-400' :
-              member.category === 'cinematography' ? 'bg-teal-500/20 text-teal-400' :
-              'bg-pink-500/20 text-pink-400'
-            }`}>
-              {member.category.charAt(0).toUpperCase() + member.category.slice(1)}
-            </span>
-          </div>
-        </div>
+        <div className="p-6 h-[260px] flex flex-col justify-between space-y-3">
+  {/* Top section */}
+  <div>
+    <h3 className="text-lg font-semibold text-white group-hover:text-violet-400 transition-colors duration-300">
+      {member.name}
+    </h3>
+    <p className="text-violet-400 font-medium text-sm">{member.role}</p>
+
+    {member.branch && (
+      <div className="text-sm text-gray-400 mt-1">
+        <p>{member.branch}</p>
+      </div>
+    )}
+
+    <p className="text-gray-400 text-xs leading-relaxed mt-2">{member.bio}</p>
+  </div>
+
+  {/* Badge pinned at the bottom */}
+  <div>
+    <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+      member.category === 'faculty' ? 'bg-cyan-500/20 text-cyan-400' :
+      member.category === 'leadership' ? 'bg-violet-500/20 text-violet-400' :
+      member.category === 'tech' ? 'bg-red-500/20 text-red-400' :
+      member.category === 'finance' ? 'bg-green-500/20 text-green-400' :
+      member.category === 'management' ? 'bg-blue-500/20 text-blue-400' :
+      member.category === 'marketing' ? 'bg-yellow-500/20 text-yellow-400' :
+      member.category === 'digital' ? 'bg-teal-500/20 text-teal-400' :
+      member.category === 'cinematography' ? 'bg-teal-500/20 text-teal-400' :
+      'bg-pink-500/20 text-pink-400'
+    }`}>
+      {member.category.charAt(0).toUpperCase() + member.category.slice(1)}
+    </span>
+  </div>
+</div>
+
       </motion.div>
     );
   
