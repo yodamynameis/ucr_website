@@ -134,9 +134,9 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <div>
                     <h3 className="text-white font-semibold mb-1">Email</h3>
                     <p className="text-gray-400">
-                       General: ucrjiit62@gmail.com<br />
-                      Projects: projects@ucr-robotics.edu<br />
-                      Events: events@ucr-robotics.edu 
+                      General: ucrjiit62@gmail.com<br />
+                      Projects: ucrjiit62@gmail.com<br />
+                      Events: ucrjiit2526@gmail.com
                     </p>
                   </div>
                 </div>
