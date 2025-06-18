@@ -106,7 +106,7 @@ const Team = () => {
       name: "Anshul Singh",
       role: "President",
       category: "leadership",
-      branch: "Computer Science and Engineering",
+      branch: "Computer Science Engineering",
       image: anshul,
       bio: "Leading with vision, patience, and unity to empower teams and inspire innovation.",
       github: "https://github.com/yodamynameis",
