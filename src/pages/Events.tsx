@@ -26,8 +26,8 @@ const Events = () => {
     // },
      {
       id: 2,
-      title: "Voulnteer Interviews ",
-      date: "2025-07-01",
+      title: "Voulnteer Forms  ",
+      date: "2025-06-21",
       time: "Will be informed",
       location: "Virtual" ,
       category: "interview",
