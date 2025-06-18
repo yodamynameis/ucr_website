@@ -21,6 +21,7 @@ import hema from '../assets/hema.png';
 import sanskar from '../assets/sanskar.jpg';
 import anshul from '../assets/anshul.jpg';
 import arjun from '../assets/arjun.jpg';
+import ashwin from '../assets/ashwin.jpg';
 import shivansh_kat from '../assets/shivansh_kat.jpg';
 import nandini from '../assets/nandini.jpg';
 import anshika from '../assets/anshika.jpg';
@@ -39,9 +40,9 @@ const Team = () => {
       branch: "Computer Science",
       image: hema,
       bio: "Experienced mentor and researcher in robotics and embedded systems, guiding innovative student projects in automation, smart systems, and sensor applications",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
+      //github: "https://github.com",
+      //linkedin: "https://linkedin.com",
+     // instagram: "https://instagram.com",
       email: "hema.n@jiit.ac.in"
   };
   const seniorAdvisors = [
@@ -77,7 +78,7 @@ const Team = () => {
       role: "Senior Advisor",
       category: "advisor",
       branch: "Electronics & Communication Engineering",
-     image: ayush_pan, 
+     image: ashwin, 
       bio: "Passionate advisor who brings ideas to life through robotics and real-world experience.",
       github: "https://www.github.com/r1ashwin",       //change
       linkedin: "https://www.linkedin.com/in/r1ashwin ",
@@ -405,7 +406,7 @@ type Member = {
   image: string;
   github?: string;
   linkedin: string;
-  instagram: string;
+  instagram?: string;
   email?: string;
   role: string;
   branch?: string;
@@ -460,6 +461,7 @@ const MemberCard = ({ member, index = 0 }: MemberCardProps) => (      <motion.di
         )}
 
         {/* LinkedIn */}
+        {member.linkedin && (
         <a
           href={member.linkedin}
           target="_blank"
@@ -468,8 +470,9 @@ const MemberCard = ({ member, index = 0 }: MemberCardProps) => (      <motion.di
         >
           <Linkedin className="w-4 h-4 text-white" />
         </a>
-
+        )}
         {/* Instagram */}
+        {member.instagram && (
         <a
           href={member.instagram}
           target="_blank"
@@ -478,6 +481,7 @@ const MemberCard = ({ member, index = 0 }: MemberCardProps) => (      <motion.di
         >
           <Instagram className="w-4 h-4 text-white" />
         </a>
+       )}
 
         {/* Email */}
         <a
