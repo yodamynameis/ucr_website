@@ -452,7 +452,14 @@ useEffect(() => {
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm">Make sure your responses reflect your genuine interests and experience—plagiarized content will not be considered.</p>
+        <p className="text-sm"> Join the<a
+    href="https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-green-400 hover:underline"
+  >
+    WhatsApp Helpdesk
+  </a></p>
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
@@ -759,7 +766,17 @@ useEffect(() => {
                       <li>• Explore our projects and understand different domains</li>
                       <li>• Prepare for your Interview in preferred domain</li>
                       <li>• Follow us on social media for updates</li>
-                      <li>• Attend our upcoming events and workshops</li>
+                      <li>
+  • Join the{" "}
+  <a
+    href="https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ" // Replace with your actual WhatsApp number
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-green-400 hover:underline"
+  >
+    WhatsApp Helpdesk
+  </a>
+</li>
                     </ul>
                   </div>
                 </>

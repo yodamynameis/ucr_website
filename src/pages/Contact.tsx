@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord,FaWhatsapp } from "react-icons/fa";
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Mail, Phone, Send, MessageCircle, User } from 'lucide-react';
+import { MapPin,  Mail, Send, MessageCircle } from 'lucide-react';
 import { addDoc, collection } from "firebase/firestore";
 import  db from "../firebase"; 
 
@@ -134,10 +134,21 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <div>
                     <h3 className="text-white font-semibold mb-1">Email</h3>
                     <p className="text-gray-400">
-                      General: ucrjiit62@gmail.com<br />
-                      Projects: ucrjiit62@gmail.com<br />
-                      Events: ucrjiit2526@gmail.com
-                    </p>
+                    General:{" "}
+                    <a href="mailto:ucrjiit62@gmail.com" className="hover:underline text-blue-400">
+                      ucrjiit62@gmail.com
+                    </a>
+                    <br />
+                    Projects:{" "}
+                    <a href="mailto:ucrjiit62@gmail.com" className="hover:underline text-blue-400">
+                      ucrjiit62@gmail.com
+                    </a>
+                    <br />
+                    Events:{" "}
+                    <a href="mailto:ucrjiit2526@gmail.com" className="hover:underline text-blue-400">
+                      ucrjiit2526@gmail.com
+                    </a>
+                  </p>
                   </div>
                 </div>
 
@@ -167,6 +178,12 @@ const handleSubmit = async (e: React.FormEvent) => {
         color: 'from-pink-500 to-purple-500',
         icon: <FaInstagram className="text-white w-5 h-5" />
       },
+       {
+                        name: 'WhatsApp',
+                        href: 'https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ',
+                        color: 'from-green-400 to-green-600',
+                        icon: <FaWhatsapp className="text-white w-5 h-5" />
+                      },
       {
         name: 'LinkedIn',
         href: 'http://www.linkedin.com/company/ucr-jiit',

@@ -1,10 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaFacebookF, FaDiscord, FaWhatsapp } from "react-icons/fa";
 import { MapPin, Clock, Mail, } from 'lucide-react';
 import Logo from './Logo';
 import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900/95 border-t border-gray-800">
@@ -105,6 +104,12 @@ const Footer = () => {
                   href: 'https://www.instagram.com/ucrjiit',
                   color: 'from-pink-500 to-purple-500',
                   icon: <FaInstagram className="text-white w-5 h-5" />
+                },
+                {
+                  name: 'WhatsApp',
+                  href: 'https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ',
+                  color: 'from-green-400 to-green-600',
+                  icon: <FaWhatsapp className="text-white w-5 h-5" />
                 },
                 {
                   name: 'LinkedIn',
