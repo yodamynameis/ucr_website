@@ -32,7 +32,7 @@ const Events = () => {
       location: "Virtual" ,
       category: "interview",
       //participants: ,
-      description: "Interviews to onboard passionate volunteers for the 2025-26 tenure for all departments.",
+      description: "Forms for volunteer interview for all domain",
       image: interviewImg
     }
     // {
