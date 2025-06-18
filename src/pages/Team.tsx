@@ -405,7 +405,7 @@ type Member = {
   name: string;
   image: string;
   github?: string;
-  linkedin: string;
+  linkedin?: string;
   instagram?: string;
   email?: string;
   role: string;
