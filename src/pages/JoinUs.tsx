@@ -39,6 +39,7 @@ const [formData, setFormData] = useState<FormDataType>({
   const [timeRemaining, setTimeRemaining] = useState<string>('');
 
   // MODIFIED: Define recruitment period in IST (UTC+5:30)
+  //put time in ist format
   const RECRUITMENT_START = new Date('2025-06-18T21:45:00+05:30'); // Start date in IST
   const RECRUITMENT_END = new Date('2025-07-15T23:59:59+05:30');   // End date in IST
 
@@ -77,7 +78,7 @@ const [formData, setFormData] = useState<FormDataType>({
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-        setTimeRemaining(`${days}d ${hours}h ${minutes}m`);
+        setTimeRemaining(`${days}d ${hours}h ${minutes}m ` );
       } else if (nowIST >= RECRUITMENT_START && nowIST <= RECRUITMENT_END) {
         setFormStatus('active');
         // Calculate time until recruitment ends
