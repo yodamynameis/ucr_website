@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-gray-400">
               <div className="flex items-center space-x-2">
                 <MapPin size={16} />
-                <span>μCR Sac Room,Jaypee Institute of Information Technology, Sector 62</span>
+                <span>μCR Sac Room,Jaypee Institute of Information Technology, Sector 62, Noida</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock size={16} />
