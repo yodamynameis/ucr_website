@@ -9,7 +9,7 @@ import ayush_agg from '../assets/ayush_agg.jpeg';
 import ayush_pan from '../assets/ayush_pan.jpg';
 import bhavyanshika from '../assets/bhavyanshika.jpg';
 import krishna from '../assets/krishna.jpg';
-import kushal from '../assets/kushal.jpg';
+import kushal from '../assets/kushal_1.jpg';
 import maadhvan from '../assets/maadhvan.jpg';
 import mahima from '../assets/mahima.jpg';
 import manya from '../assets/manya.jpg';
@@ -18,12 +18,14 @@ import shivansh from '../assets/shivansh.jpg';
 import vaibhav from '../assets/vaibhav.webp';
 import vanshika from '../assets/vanshika.jpg';
 import hema from '../assets/hema.png';
+import sanskar from '../assets/sanskar.jpg';
 import anshul from '../assets/anshul.jpg';
 import arjun from '../assets/arjun.jpg';
 import shivansh_kat from '../assets/shivansh_kat.jpg';
 import nandini from '../assets/nandini.jpg';
 import anshika from '../assets/anshika.jpg';
 import kanika from '../assets/kanika.jpg';
+import himanshi from '../assets/himanshi.jpg';
 import kamna from '../assets/kamna.jpg';
 const Team = () => {
   const [filter, setFilter] = useState('all');
@@ -158,7 +160,7 @@ const Team = () => {
       role: "Treasurer",
       category: "finance",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+      image:sanskar,
       bio: "Manages finances with integrity, transparency, and precision, ensuring smooth operations and sustainable growth.",
       github: "https://github.com/sanskar-bot",
       linkedin: "https://www.linkedin.com/in/sanskar-phougat",
@@ -225,7 +227,7 @@ const Team = () => {
       category: "tech",
       branch: "Computer Science Engineering",
       image: ayush_agg,
-      bio: "Leads with innovation, technical expertise, and a passion for building efficient, future-ready solutions.",
+      bio: "Leads with innovation, technical expertise, and a passion for building efficient, future-ready solutions.",
       github: "https://github.com/agrawalayush29",
       linkedin: "http://www.linkedin.com/in/ayush-agrawal-1825582a0",
       instagram: "https://www.instagram.com/ayushagrawal1839/",
@@ -291,7 +293,7 @@ const Team = () => {
       role: "Digital Head",
       category: "digital",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image:himanshi,
       bio: "Leads digital strategy, manages online presence, and promotes robotics innovations through engaging content.",
       github: "https://github.com/Himanshi-S09",
       linkedin: "https://www.linkedin.com/in/himanshisharma09",
