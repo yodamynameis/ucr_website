@@ -3,9 +3,23 @@ import { motion } from 'framer-motion';
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin,Instagram, Mail, Filter } from 'lucide-react';
 import ujjawal from '../assets/ujjawal.png';
-import ayush_d from '../assets/ayush_dubey.png';
+import ayush from '../assets/ayush.jpg';
+import ananya from '../assets/ananya.jpg';
+import ayush_agg from '../assets/ayush_agg.jpeg';
+import ayush_pan from '../assets/ayush_pan.jpg';
+import bhavyanshika from '../assets/bhavyanshika.jpg';
+import krishna from '../assets/krishna.jpg';
+import kushal from '../assets/kushal.jpg';
+import maadhvan from '../assets/maadhvan.jpg';
+import mahima from '../assets/mahima.jpg';
+import manya from '../assets/manya.jpg';
+import rishabh from '../assets/rishabh.jpg';
+import shivansh from '../assets/shivansh.jpg';
+import vaibhav from '../assets/vaibhav.webp';
+import vanshika from '../assets/vanshika.jpg';
 import hema from '../assets/hema.png';
-
+import anshul from '../assets/anshul.jpg';
+import arjun from '../assets/arjun.jpg';
 const Team = () => {
   const [filter, setFilter] = useState('all');
   const navigate = useNavigate();
@@ -43,7 +57,7 @@ const Team = () => {
       role: "Senior Advisor",
       category: "advisor",
       branch: "Electronics & Communication Engineering",
-      image: ayush_d, 
+      image: ayush, 
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       github: "https://github.com/ayushdubey85",       //change
       linkedin: "http://www.linkedin.com/in/ayush-dubey-122a75271",
@@ -56,7 +70,7 @@ const Team = () => {
       role: "Senior Advisor",
       category: "advisor",
       branch: "Electronics & Communication Engineering",
-     image: ayush_d, 
+     image: ayush_pan, 
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       github: "https://www.github.com/r1ashwin",       //change
       linkedin: "https://www.linkedin.com/in/r1ashwin ",
@@ -69,7 +83,7 @@ const Team = () => {
       role: "Senior Advisor",
       category: "advisor",
       branch: "Information Technology Engineering",
-      image: ayush_d, 
+      image: ayush_pan, 
       bio: "Expert in embedded systems and robotics with 15+ years of experience.",
       //github: "https://github.com",       //change
       linkedin: "https://www.linkedin.com/in/ayush-pandey-b86659291",
@@ -86,7 +100,7 @@ const Team = () => {
       role: "President",
       category: "leadership",
       branch: "Computer Science and Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: anshul,
       bio: "Leading with vision, patience, and unity to empower teams and inspire innovation.",
       github: "https://github.com/yodamynameis",
       linkedin: "http://www.linkedin.com/in/anshulsingh27",
@@ -112,7 +126,7 @@ const Team = () => {
       role: "Secretary",
       category: "leadership",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: krishna,       
       bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
       github: "https://github.com/krishnagupta03",
       linkedin: "http://linkedin.com/in/krishna-gupta-031411303",
@@ -153,7 +167,7 @@ const Team = () => {
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: bhavyanshika,
       bio: "Leads innovation with expertise, creativity, and passion, driving cutting-edge solutions and technical excellence.",
       github: "https://github.com/BhavyanshikaGupta",
       linkedin: "https://www.linkedin.com/in/bhavyanshika-gupta-8888bb284",
@@ -166,7 +180,7 @@ const Team = () => {
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: rishabh,
       bio: "Innovates and engineers RC planes with precision, vision, and impact-driven design.",
       github: "https://github.com/Kapurrrishabh",
       linkedin: "https://www.linkedin.com/in/rishabh-kapur/",
@@ -179,7 +193,7 @@ const Team = () => {
       role: "Technical Head",
       category: "tech",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: ananya,
       bio: "Drives innovation with sharp technical skills, creative vision, and a passion for impactful solutions.",
       github: "https://github.com/Annanya-pS",
       linkedin: "http://www.linkedin.com/in/annanya-priyadarshini-sahoo-4663972a1",
@@ -192,7 +206,7 @@ const Team = () => {
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: manya,
       bio: "Blends innovation and dedication to lead impactful tech initiatives with clarity, creativity, and precision.",
       github: "https://github.com/maanya14",
       linkedin: "http://www.linkedin.com/in/maanya14",
@@ -205,7 +219,7 @@ const Team = () => {
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: ayush_agg,
       bio: "Leads with innovation, technical expertise, and a passion for building efficient, future-ready solutions.",
       github: "https://github.com/agrawalayush29",
       linkedin: "http://www.linkedin.com/in/ayush-agrawal-1825582a0",
@@ -219,7 +233,7 @@ const Team = () => {
       role: "Management Head",
       category: "management",
       branch: "Computer Science Engineering",
-     image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+     image: shivansh,
       bio: "Supervises robotics initiatives, drives embedded systems excellence, and ensures smooth hub operations.",
       github: "https://github.com/Shivansh3127",
       linkedin: "https://www.linkedin.com/in/shivansh-agarwal-b79b802a6",
@@ -232,7 +246,7 @@ const Team = () => {
       role: "Management Head",
       category: "management",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image:arjun,
       bio: "Excels in organizing, streamlining operations, and ensuring smooth execution with sharp strategy and leadership.",
       github: "https://github.com/arjun-1703",
       linkedin: "https://www.linkedin.com/in/arjun-gupta-74b726286",
@@ -245,7 +259,7 @@ const Team = () => {
       role: "Management Head",
       category: "management",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image:maadhvan,
       bio: "Guides technical direction, team collaboration, and project flow in robotics and microcontrollers hub.",
       github: "https://github.com/madhav-mvk",
       linkedin: "https://www.linkedin.com/in/madhavan-verma-70a71036b",
@@ -258,7 +272,7 @@ const Team = () => {
       role: "Management Head",
       category: "management",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: vanshika,
       bio: "Leads innovation and strategy in microcontrollers and robotics, ensuring efficient hub management and growth.",
       github: "https://github.com/vanshika7605",
       linkedin: "https://www.linkedin.com/in/vanshika-aggarwal-b25399355/",
@@ -313,7 +327,7 @@ const Team = () => {
       role: "Marketing Head",
       category: "marketing",
       branch: "Electronics & Communication Engineering",
-     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+     image: kushal,
       bio: "Directs all marketing efforts, enhancing public engagement with robotics events and technological achievements.",
       github: "https://github.com/kushal06-makkar",
       linkedin: "http://www.linkedin.com/in/kushal-makkar-ba3340342",
@@ -326,7 +340,7 @@ const Team = () => {
       role: "Marketing Head",
       category: "marketing",
       branch: "Computer Science Engineering",
-     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+     image:vaibhav,
       bio: "Manages promotions, builds strategic collaborations, and expands reach for the robotics hub.",
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -341,7 +355,7 @@ const Team = () => {
       role: "Creative Head",
       category: "creative",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+      image: mahima,
       bio: "Oversees design, aesthetics, and creative media for robotics events, workshops, and public engagement.",
       github: "https://github.com/Mahima9186",
       linkedin: "https://www.linkedin.com/in/mahima-ancy-verghese-75214b370",
