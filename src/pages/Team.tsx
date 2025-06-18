@@ -51,7 +51,7 @@ const Team = () => {
       name: "Ujjawal Garg",
       role: "Senior Advisor",
       category: "advisor",
-      branch: "Integrated Computer Science and Engineering",
+      branch: "Integrated Computer Science Engineering",
       image: ujjawal, 
       bio: "Always ready to guide, with a heart for innovation and student growth.",
       github:"https://github.com/ujjawalgarg7",
