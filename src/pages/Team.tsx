@@ -349,10 +349,10 @@ const Team = () => {
       branch: "Computer Science Engineering",
      image:vaibhav,
       bio: "Manages promotions, builds strategic collaborations, and expands reach for the robotics hub.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      instagram: "https://instagram.com",
-      email: "vaibhav.@student.edu"
+      github: "/teams",
+      linkedin: "/teams",
+      instagram: "/teams",
+      email:"/teams" 
     },
      
     // Creative Team
@@ -406,7 +406,7 @@ type Member = {
   github?: string;
   linkedin: string;
   instagram: string;
-  email: string;
+  email?: string;
   role: string;
   branch?: string;
   bio: string;
