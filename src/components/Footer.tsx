@@ -73,9 +73,9 @@ const Footer = () => {
                 <span>Mon-Fri: 10:00 AM - 6:00 PM</span>
               </div>
               <div className="flex items-center space-x-2">
-<a href="mailto:ucrjiit2526@gmail.com" className="flex items-center space-x-2 hover:underline">
+<a href="mailto:ucr@ucrjiit.com" className="flex items-center space-x-2 hover:underline">
   <Mail size={16} />
-  <span>ucrjiit62@gmail.com</span>
+  <span>ucr@ucrjiit.com</span>
 </a>
               </div>
               {/* <div className="flex items-center space-x-2">
