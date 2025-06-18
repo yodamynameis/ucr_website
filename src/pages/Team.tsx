@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin,Instagram, Mail, Filter } from 'lucide-react';
-import ujjawal from '../assets/ujjawal.png';
+import ujjawal from '../assets/ujjawal.jpg';
 import ayush from '../assets/ayush.jpg';
 import ananya from '../assets/ananya.jpg';
 import ayush_agg from '../assets/ayush_agg.jpeg';
