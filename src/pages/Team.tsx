@@ -38,7 +38,7 @@ const Team = () => {
       category: "faculty",
       branch: "Computer Science",
       image: hema,
-      bio: "Specializes in AI and machine learning applications in robotics.",
+      bio: "Experienced mentor and researcher in robotics and embedded systems, guiding innovative student projects in automation, smart systems, and sensor applications",
       github: "https://github.com",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com",
@@ -78,7 +78,7 @@ const Team = () => {
       category: "advisor",
       branch: "Electronics & Communication Engineering",
      image: ayush_pan, 
-      bio: "Passionate mentor who brings ideas to life through robotics and real-world experience.",
+      bio: "Passionate advisor who brings ideas to life through robotics and real-world experience.",
       github: "https://www.github.com/r1ashwin",       //change
       linkedin: "https://www.linkedin.com/in/r1ashwin ",
       instagram: "https://www.instagram.com/r1ashwin",
