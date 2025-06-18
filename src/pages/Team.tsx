@@ -20,6 +20,11 @@ import vanshika from '../assets/vanshika.jpg';
 import hema from '../assets/hema.png';
 import anshul from '../assets/anshul.jpg';
 import arjun from '../assets/arjun.jpg';
+import shivansh_kat from '../assets/shivansh_kat.jpg';
+import nandini from '../assets/nandini.jpg';
+import anshika from '../assets/anshika.jpg';
+import kanika from '../assets/kanika.jpg';
+import kamna from '../assets/kamna.jpg';
 const Team = () => {
   const [filter, setFilter] = useState('all');
   const navigate = useNavigate();
@@ -45,7 +50,7 @@ const Team = () => {
       category: "advisor",
       branch: "Integrated Computer Science and Engineering",
       image: ujjawal, 
-      bio: "Expert in embedded systems and robotics with 15+ years of experience.",
+      bio: "Always ready to guide, with a heart for innovation and student growth.",
       github:"https://github.com/ujjawalgarg7",
       linkedin: "https://www.linkedin.com/in/ujjawal-garg-588585202 ",
       instagram: "https://www.instagram.com/ujjawal.garg7",
@@ -58,7 +63,7 @@ const Team = () => {
       category: "advisor",
       branch: "Electronics & Communication Engineering",
       image: ayush, 
-      bio: "Expert in embedded systems and robotics with 15+ years of experience.",
+      bio: "Inspires with patience, curiosity, and a genuine love for building and teaching.",
       github: "https://github.com/ayushdubey85",       //change
       linkedin: "http://www.linkedin.com/in/ayush-dubey-122a75271",
       instagram: "https://www.instagram.com/ayushdubey85",
@@ -71,7 +76,7 @@ const Team = () => {
       category: "advisor",
       branch: "Electronics & Communication Engineering",
      image: ayush_pan, 
-      bio: "Expert in embedded systems and robotics with 15+ years of experience.",
+      bio: "Passionate mentor who brings ideas to life through robotics and real-world experience.",
       github: "https://www.github.com/r1ashwin",       //change
       linkedin: "https://www.linkedin.com/in/r1ashwin ",
       instagram: "https://www.instagram.com/r1ashwin",
@@ -84,7 +89,7 @@ const Team = () => {
       category: "advisor",
       branch: "Information Technology Engineering",
       image: ayush_pan, 
-      bio: "Expert in embedded systems and robotics with 15+ years of experience.",
+      bio: "A steady guiding presence, always encouraging curiosity, creativity, and collaboration in the team.",
       //github: "https://github.com",       //change
       linkedin: "https://www.linkedin.com/in/ayush-pandey-b86659291",
       instagram: "https://www.instagram.com/ayush_10.2",
@@ -113,7 +118,7 @@ const Team = () => {
       role: "Vice President",
       category: "leadership",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: shivansh_kat,
       bio: "Drives excellence with strategic insight, strong Technical skills, and unwavering commitment to growth.",
       github: "https://github.com/Shivansh-Katiyar",
       linkedin: "https://linkedin.com/in/shivanshkatiyar1245",
@@ -139,7 +144,7 @@ const Team = () => {
       role: "128 Head",
       category: "leadership",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: kamna,
       bio: "Mechanical design expert with focus on robotic kinematics and dynamics.",
       github: "https://github.com/Kamna22",
       linkedin: "https://www.linkedin.com/in/kamna-thakur-6037462a1/",
@@ -299,7 +304,7 @@ const Team = () => {
       role: "Cinematography Head",
       category: "cinematography",
       branch: "Electronics & Communication Engineering",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      image: nandini,
       bio: "Drives creative direction in video, photography, and digital outreach for robotics hub activities.",
       github: "https://github.com/ic7400",
       linkedin: "http://www.linkedin.com/in/nandini-verma26712431",
@@ -314,7 +319,7 @@ const Team = () => {
       role: "Marketing Head",
       category: "marketing",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+      image: kanika,
       bio: "Leads strategic marketing to promote robotics innovation, technical workshops, and student engagement initiatives",
       github: "https://github.com/kaniikagupta",
       linkedin: "http://linkedin.com/in/kanika-gupta-276a13368",
@@ -368,7 +373,7 @@ const Team = () => {
       role: "Creative Head",
       category: "creative",
       branch: "Computer Science Engineering",
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+      image: anshika,
       bio: "Crafts engaging visuals and creative assets that represent the hub's identity and innovation.",
       github: "https://github.com/aggarwalanshika",
       linkedin: "http://www.linkedin.com/in/anshika-aggarwal-207120228",
