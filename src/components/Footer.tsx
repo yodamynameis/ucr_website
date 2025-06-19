@@ -148,7 +148,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
           <p>&copy; 2025 μCR - Microcontroller-Based Systems and Robotics Hub. All rights reserved.</p>
-         <p>Made by <a href="https://www.linkedin.com/in/anshulsingh27" target="_blank" rel="noopener noreferrer">🌼</a></p>
+         <p>Developed by <a href="https://www.linkedin.com/in/anshulsingh27" target="_blank" rel="noopener noreferrer">🌼</a></p>
         </div>
       </div>
     </footer>
