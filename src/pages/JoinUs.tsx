@@ -452,7 +452,7 @@ useEffect(() => {
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm"> Join the<a
+        <p className="text-sm"> Join the <a
     href="https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ" 
     target="_blank"
     rel="noopener noreferrer"
