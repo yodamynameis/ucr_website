@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, MapPin, Users, ArrowRight, Filter } from 'lucide-react';
+import { Calendar, Clock, MapPin, ArrowRight, Filter } from 'lucide-react';
 import FlipCard from "../components/FlipCard";
 import { Link } from 'react-router-dom';
-import interviewImg from '../assets/interview.png'; // Adjust the path as necessary
+import interview from '../assets/interview.png'; // Adjust the path as necessary
 import img1 from '../assets/img1.jpg';
 import img2 from '../assets/img2.jpg';
 import img3 from '../assets/img3.jpg';
-import img4 from '../assets/img4.jpg';
 import img5 from '../assets/img5.jpg';
 const Events = () => {
   const [filter, setFilter] = useState('all');
@@ -33,7 +32,7 @@ const Events = () => {
       category: "interview",
       //participants: ,
       description: "Forms for volunteer interview for all domain",
-      image: interviewImg
+      image: interview
     }
     // {
     //   id: 2,
