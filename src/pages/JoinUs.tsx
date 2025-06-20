@@ -436,6 +436,10 @@ useEffect(() => {
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
+        <p className="text-sm">The Forms are only for <strong>Second Year</strong> Students</p>
+      </div>
+      <div className="flex items-start space-x-2">
+        <span className="text-violet-400 font-bold">•</span>
         <p className="text-sm">Use your <strong>personal email address</strong> instead of your university email—our responses often land in the spam folder of university inboxes.</p>
       </div>
       <div className="flex items-start space-x-2">
