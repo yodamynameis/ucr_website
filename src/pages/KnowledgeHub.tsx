@@ -129,18 +129,32 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+
+      {
+      id: 2,
+      title: "Infrared Sensors in Robotics",
+      author: "Kushal Makkar & Vanshika Aggarwal",
+      insta: "https://www.instagram.com/kushal_m_06/",
+      date: "2025-06-22",
+      category: "Sensors",
+      tags: ["Arduino", "Electronics", "Infrared Sensors"],
+      excerpt: "Discover how IR sensors enable object detection and line following in robots, and how to connect them with Arduino.",
+      readTime: "10 min read",
+      image: "https://srituhobby.com/wp-content/uploads/2021/04/1-36.jpg"
+    },
     {
       id: 1,
       title: "Working with Arduino",
       author: "Sanskar Phougat",
       insta: "https://www.instagram.com/sanskar__phougat/",
-      date: "2025-06-18",
+      date: "2025-06-15",
       category: "Robotics",
       tags: ["Arduino", "Sensors", "Autonomous Navigation"],
       excerpt: "Learn about Ardunio programming and its applications in robotics. This tutorial covers the basics of Arduino, sensor integration, and building autonomous robots.",
       readTime: "8 min read",
       image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D"
     },
+  
     // {
     //   id: 2,
     //   title: "Introduction to ROS (Robot Operating System)",
