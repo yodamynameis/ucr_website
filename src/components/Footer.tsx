@@ -125,7 +125,7 @@ const Footer = () => {
                 },
                 {
                   name: 'Discord',
-                  href: 'https://discord.gg/5rA6Mp7K',
+                  href: 'https://discord.gg/Jp4Kje999B',
                   color: 'from-indigo-500 to-indigo-700',
                   icon: <FaDiscord className="text-white w-5 h-5" />
                 }
