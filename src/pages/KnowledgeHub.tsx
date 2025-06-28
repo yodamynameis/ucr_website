@@ -130,6 +130,19 @@ const KnowledgeHub = () => {
 
   const techBlogs = [
 
+    {
+      id: 3,
+      title: "Servo Motors: A Beginner's Guide",
+      author: "Bhavyanshika Gupta aur Maanya Gupta",
+      insta: "https://www.instagram.com/maanya.g14/",
+      date: "2025-06-29",
+      category: "Hardware",
+      tags: ["Electronics", "Servo Motors"],
+      excerpt:"Discover how servo motors enable precise motion control in robotics and automation, and how to connect them with your microcontroller.",
+      readTime: "12 min read",
+      image: "https://soldered.com/productdata/2015/02/DSC_2916-Edit.jpg"
+    },
+
       {
       id: 2,
       title: "Infrared Sensors in Robotics",

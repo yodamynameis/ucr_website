@@ -3,9 +3,8 @@ import { motion } from 'framer-motion';
 
 const NewsTicker = () => {
  const news = [
-  { text: "🤖 Apply Now!!!", url: "/joinus" },
   { text: "🆕 New Team Announced", url: "/team" },
-  { text: "📝 Volunteer Forms Out Now", url: "/joinus" },
+  { text: "📝 Volunteer Interviews Starting Soon", url: "/joinus" },
   { text: "📰 Weekly Blog Posted", url: "/knowledge-hub" },
   { text: "📽️ Year Rewind Reel Out Now", url: "https://www.instagram.com/p/DK1FtIeJCNX/" }
 ];

@@ -197,5 +197,131 @@ IR sensors are versatile, affordable, and easy to integrate into a wide range of
     category: "Sensors",
     author: "Kushal Makkar & Vanshika Aggarwal"
   },
+
+  
+  {
+  id: 3,
+  title: "Servo Motors: A Beginner's Guide",
+  image: "https://soldered.com/productdata/2015/02/DSC_2916-Edit.jpg",
+  insta: "https://www.instagram.com/maanya.g14/",
+  date: "2025-06-29",
+  readTime: "12 min read",
+  excerpt: "Discover how servo motors enable precise motion control in robotics and automation, and how to connect them with your microcontroller.",
+  content: `
+# 🤖 Servo Motors 101: Principles, Types, Wiring, and Real-World Applications
+
+Servo motors are compact, powerful, and precise — making them a favorite in robotics, automation, and DIY electronics. From robotic arms to camera gimbals, these little motors bring motion to life with pinpoint control. In this guide, you’ll learn what servo motors are, how they work, their types, wiring, real-world applications, and how to use them in your projects.
+
+---
+
+## 🧠 What is a Servo Motor?
+
+A servo motor is a rotary actuator designed for precise control of angular movement. It's widely used where accurate shaft positioning is critical. Common features include:
+
+- **Compact size**
+- **Controlled rotation (0°-180° typical)**
+- **Feedback loop for position accuracy**
+
+---
+
+## ⚙ Working Principle
+
+Servo motors operate on a closed-loop control system. This means they constantly compare the actual shaft position with the desired position and make corrections if needed.
+
+### 🔁 Feedback-Based Motion
+
+**📩 Control Signal (PWM Input)**  
+- Microcontroller sends a PWM signal.
+- Pulse width determines the angle.
+
+**🔄 Position Feedback**  
+- A potentiometer inside the servo tracks shaft position.
+
+**🧠 Control Circuit**  
+- Compares current vs desired position and adjusts the motor.
+
+---
+
+## 🔌 Three-Wire Connection Explained
+
+One of the simplest and most beginner-friendly motors, servos come with three colored wires, each serving a specific role:
+
+| Wire Color | Purpose       | Connects To                        |
+|------------|----------------|-------------------------------------|
+| 🔴 Red     | Power (Vcc)    | 5V or external power source         |
+| ⚫ Black/Brown | Ground (GND) | GND on your microcontroller or power supply |
+| 🟡 Yellow/Orange/White | Signal (PWM) | PWM-capable pin on your microcontroller |
+
+> 🧠 **Tip:** Always check the datasheet, as wire colors may vary slightly by brand.
+
+---
+
+## 🔄 Types of Servo Motors
+
+| Type              | Description                       | Example Uses                  |
+|-------------------|-----------------------------------|-------------------------------|
+| Positional Servo  | Rotates to a specific angle (0°–180°) | Robotic arms, camera mounts  |
+| Continuous Servo  | Rotates indefinitely like a DC motor | Mobile robots, conveyor belts |
+| Linear Servo      | Converts rotary to linear motion   | RC cars, sliding doors        |
+
+---
+
+## 🧰 Inside a Servo Motor
+
+Let's break down what makes a servo tick:
+
+- **DC Motor**: Drives the rotation.
+- **Gearbox**: Reduces speed, increases torque.
+- **Potentiometer**: Monitors position of the shaft.
+- **Control Circuit**: Compares position & corrects movement.
+
+---
+
+## ⚙ How It Works: Step-by-Step
+
+1. **Send PWM Signal**  
+   - 1 ms pulse → 0°  
+   - 1.5 ms pulse → 90°  
+   - 2 ms pulse → 180°
+
+2. **Read Feedback**  
+   - The potentiometer tracks current angle.
+
+3. **Adjust Motor**  
+   - Motor spins until shaft matches desired angle.
+
+4. **Hold Position**  
+   - Once there, servo stops but applies holding torque.
+
+---
+
+## 💻 Arduino + Servo: Simple Code Example
+
+\`\`\`cpp
+#include <Servo.h>
+
+Servo myServo;
+
+void setup() {
+  myServo.attach(9);  // Signal pin connected to pin 9 on your microcontroller
+}
+
+void loop() {
+  myServo.write(90);  // Move to 90°
+  delay(1000);
+  myServo.write(0);   // Move to 0°
+  delay(1000);
+}
+\`\`\`
+---
+🛠️ Happy Making!
+
+*Got questions or project ideas involving IR sensors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF;  text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
+`,
+  tags: ["Electronics", "Servo Motors", "Microcontroller", "Robotics", "PWM"],
+  category: "Hardware",
+  author: "Bhavyanshika Gupta and Maanya Gupta"
+}
+    ,
   // Add more blog objects...
 ];
