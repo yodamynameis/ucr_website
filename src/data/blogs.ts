@@ -318,7 +318,7 @@ void loop() {
 
 *Got questions or project ideas involving IR sensors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF;  text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
 `,
-  tags: ["Electronics", "Servo Motors", "Microcontroller", "Robotics", "PWM"],
+  tags: ["Electronics", "Servo Motors", "Microcontroller", "Robotics"],
   category: "Hardware",
   author: "Bhavyanshika Gupta and Maanya Gupta"
 }
