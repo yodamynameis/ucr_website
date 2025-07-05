@@ -131,6 +131,19 @@ const KnowledgeHub = () => {
   const techBlogs = [
 
     {
+  id: 4,
+  title: "7-Segment Displays: Illuminating Numbers with Ease",
+  author: "Shivansh Agarwal",
+  insta: "https://www.instagram.com/_shivansh.agarwal_/",
+  date: "2025-07-06",
+  category: "Hardware",
+  tags: ["Electronics", "Displays", "7-Segment"],
+  excerpt: "Learn how 7-segment displays work to show numbers and characters, and explore practical wiring techniques to integrate them with microcontrollers.",
+  readTime: "8 min read",
+  image: "https://external-preview.redd.it/i-made-a-7-segment-display-module-that-allows-you-to-add-v0-Oys86qV1ClNmLsjpou8ZTD6HjmEaP4uvWuQW91HofFo.jpg?auto=webp&s=99075413144134b559de67677d5db5c9f5482034"
+},
+
+    {
       id: 3,
       title: "Servo Motors: A Beginner's Guide",
       author: "Bhavyanshika Gupta aur Maanya Gupta",
