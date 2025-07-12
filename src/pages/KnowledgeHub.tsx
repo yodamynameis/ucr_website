@@ -129,7 +129,18 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
-
+{
+  id: 5,
+  title: "LiPo Batteries: Tiny Cells, Massive Power",
+  author: "Rishabh Kapur",
+  insta: "https://www.instagram.com/rishabh.kapur/",
+  date: "2025-07-13",
+  category: "Hardware",
+  tags: ["Electronics", "Power", "Batteries", "LiPo"],
+  excerpt: "Discover the fundamentals of Lithium Polymer (LiPo) batteries, their advantages for portable electronics and RC projects, and essential safety tips for charging and handling.",
+  readTime: "7 min read",
+  image: "https://robosynckits.in/wp-content/uploads/2021/06/or.png"
+},
     {
   id: 4,
   title: "7-Segment Displays: Illuminating Numbers with Ease",
@@ -384,7 +395,7 @@ const KnowledgeHub = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {filteredBlogs.map((blog, index) => (
               <motion.article
                 key={blog.id}
