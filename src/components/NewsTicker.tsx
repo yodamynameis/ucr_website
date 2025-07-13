@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const NewsTicker = () => {
  const news = [
   { text: "🆕 New Team Announced", url: "/team" },
-  { text: "✨ Volunteer Interviews in Progress", url: "/joinus" },
+  { text: "🤖 Volunteer Team Out Now!!", url: "https://www.instagram.com/p/DMDCINZJqao/?img_index=1" },
   { text: "📰 Weekly Blog Posted", url: "/knowledge-hub" },
   { text: "📽️ Year Rewind Reel Out Now", url: "https://www.instagram.com/p/DK1FtIeJCNX/" }
 ];
