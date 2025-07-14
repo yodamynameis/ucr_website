@@ -43,7 +43,7 @@ const [formData, setFormData] = useState<FormDataType>({
 
   // MODIFIED: Define recruitment period in IST (UTC+5:30)
   //put time in ist format
-  const RECRUITMENT_START = new Date('2025-07-14T10:00:00+05:30'); // Start date in IST
+  const RECRUITMENT_START = new Date('2025-07-15T10:00:00+05:30'); // Start date in IST
   const RECRUITMENT_END = new Date('2025-08-31T23:59:59+05:30');   // End date in IST
 
   // MODIFIED: Helper function to get current time in IST
@@ -299,10 +299,14 @@ useEffect(() => {
               
               {formStatus === 'active' && (
                 <>
-                  <Calendar className="w-8 h-8 text-green-400" />
+                  < div className="w-8 h-8 text-green-400" />
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-green-400 mb-2">🎉 Registrations is Now Open!</h3>
-                    <p className="text-gray-300 mb-2">
+                    <h3 className="text-xl font-bold text-green-400 mb-2">🎉 Registrations are Now Open!</h3>
+                    <p className="text-green-400 mb-2 font-mono">
+                     ✨Sign up, Show up & Stand out!
+                    </p>
+
+                    {/* <p className="text-gray-300 mb-2">
                       Applications close on <strong>{formatDateIST(RECRUITMENT_END)}</strong>
                     </p>
                     <div className="flex items-center justify-center space-x-2 text-green-400">
@@ -310,7 +314,7 @@ useEffect(() => {
                         {timeRemaining}
                       </span>
                       <span>left to apply</span>
-                    </div>
+                    </div> */}
                   </div>
                 </>
               )}
