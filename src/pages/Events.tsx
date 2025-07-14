@@ -26,12 +26,12 @@ const Events = () => {
      {
       id: 2,
       title: "Orientation Workshop 2k25", 
-      date: "To be announced",
+      date: "2025-08-20",
       time: "To be announced",
       location: "To be announced" ,
       category: "workshop",
       //participants: ,
-      description: "Orientaion for the Freashers of 2k25 batch",
+      description: "Orientation for the Freashers of 2k25 batch",
       image: interview
     }
     // {
