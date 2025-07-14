@@ -25,13 +25,13 @@ const Events = () => {
     // },
      {
       id: 2,
-      title: "Voulnteer Forms  ",
-      date: "2025-06-21",
-      time: "Will be informed",
-      location: "Virtual" ,
-      category: "interview",
+      title: "Orientation Workshop 2k25", 
+      date: "To be announced",
+      time: "To be announced",
+      location: "To be announced" ,
+      category: "workshop",
       //participants: ,
-      description: "Forms for volunteer interview for all domain",
+      description: "Orientaion for the Freashers of 2k25 batch",
       image: interview
     }
     // {

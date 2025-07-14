@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, User, Mail, Phone, GraduationCap, MapPin, Heart, Hash, Info,ArrowUp, ArrowDown,Clock, Calendar, AlertCircle, Link } from 'lucide-react';
+import { Send, User, Mail, Phone, GraduationCap, MapPin, Heart, Hash, Info ,Clock, Calendar, AlertCircle, } from 'lucide-react';
 import  db  from "../firebase"; // adjust path if needed
+import { FaWhatsapp } from "react-icons/fa";
 import { collection, addDoc } from "firebase/firestore";
 import { useEffect } from 'react';
 
@@ -14,8 +15,9 @@ interface FormDataType {
   branch: string;
   batch: string;
   accommodation: string;
-  domains: string[];
-  driveLink: string;
+  //domains: string[];
+  campus: string;
+  //driveLink: string;
 }
 
 const JoinUs = () => {
@@ -27,8 +29,9 @@ const [formData, setFormData] = useState<FormDataType>({
     branch: '',
     batch: '',
     accommodation: '',
-    domains: [],
-    driveLink: ''
+    campus: '',
+   // domains: [],
+    //driveLink: ''
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -40,8 +43,8 @@ const [formData, setFormData] = useState<FormDataType>({
 
   // MODIFIED: Define recruitment period in IST (UTC+5:30)
   //put time in ist format
-  const RECRUITMENT_START = new Date('2025-06-21T00:00:00+05:30'); // Start date in IST
-  const RECRUITMENT_END = new Date('2025-06-27T23:59:59+05:30');   // End date in IST
+  const RECRUITMENT_START = new Date('2025-08-02T00:00:00+05:30'); // Start date in IST
+  const RECRUITMENT_END = new Date('2025-09-02T23:59:59+05:30');   // End date in IST
 
   // MODIFIED: Helper function to get current time in IST
   const getCurrentISTTime = () => {
@@ -117,14 +120,14 @@ const [formData, setFormData] = useState<FormDataType>({
     'BBA',
     'Other'
   ];
-  const domains = [
-    'Technical',
-    'Management',
-    'Creative',
-    'Digital',
-    'Marketing',
-    'Cinematography'
-  ];
+  // const domains = [
+  //   'Technical',
+  //   'Management',
+  //   'Creative',
+  //   'Digital',
+  //   'Marketing',
+  //   'Cinematography'
+  // ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -134,36 +137,36 @@ const [formData, setFormData] = useState<FormDataType>({
     }));
   };
 
- const handleDomainRanking = (domain: string, action: 'add' | 'remove' | 'up' |'down') => {
-    setFormData(prev => {
-      const currentDomains = [...(prev.domains as string[])];
+//  const handleDomainRanking = (domain: string, action: 'add' | 'remove' | 'up' |'down') => {
+//     setFormData(prev => {
+//       const currentDomains = [...(prev.domains as string[])];
       
-      switch (action) {
-        case 'add':
-          if (!currentDomains.includes(domain) && currentDomains.length < 6) {
-            return { ...prev, domains: [...currentDomains, domain] };
-          }
-          break;
-        case 'remove':
-          return { ...prev, domains: currentDomains.filter(d => d !== domain) };
-        case 'up':
-          const upIndex = currentDomains.indexOf(domain);
-          if (upIndex > 0) {
-            [currentDomains[upIndex], currentDomains[upIndex - 1]] = [currentDomains[upIndex - 1], currentDomains[upIndex]];
-            return { ...prev, domains: currentDomains };
-          }
-          break;
-        case 'down':
-          const downIndex = currentDomains.indexOf(domain);
-          if (downIndex < currentDomains.length - 1 && downIndex !== -1) {
-            [currentDomains[downIndex], currentDomains[downIndex + 1]] = [currentDomains[downIndex + 1], currentDomains[downIndex]];
-            return { ...prev, domains: currentDomains };
-          }
-          break;
-      }
-      return prev;
-    });
-  };
+//       switch (action) {
+//         case 'add':
+//           if (!currentDomains.includes(domain) && currentDomains.length < 6) {
+//             return { ...prev, domains: [...currentDomains, domain] };
+//           }
+//           break;
+//         case 'remove':
+//           return { ...prev, domains: currentDomains.filter(d => d !== domain) };
+//         case 'up':
+//           const upIndex = currentDomains.indexOf(domain);
+//           if (upIndex > 0) {
+//             [currentDomains[upIndex], currentDomains[upIndex - 1]] = [currentDomains[upIndex - 1], currentDomains[upIndex]];
+//             return { ...prev, domains: currentDomains };
+//           }
+//           break;
+//         case 'down':
+//           const downIndex = currentDomains.indexOf(domain);
+//           if (downIndex < currentDomains.length - 1 && downIndex !== -1) {
+//             [currentDomains[downIndex], currentDomains[downIndex + 1]] = [currentDomains[downIndex + 1], currentDomains[downIndex]];
+//             return { ...prev, domains: currentDomains };
+//           }
+//           break;
+//       }
+//       return prev;
+//     });
+//   };
 
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
@@ -207,7 +210,7 @@ useEffect(() => {
           </div>
           <h2 className="text-3xl font-bold text-white">Application Submitted!</h2>
           <p className="text-gray-400">
-            Thank you for your interest in joining μCR. We'll review your application and get back to you soon.
+            Thank you so much for your interest in μCR! We can’t wait to meet you at the Orientation.
           </p>
           <button
             onClick={() => {
@@ -220,8 +223,9 @@ useEffect(() => {
                 branch: '',
                 batch: '',
                 accommodation: '',
-                domains: [],
-                driveLink: ''
+                campus: '',
+                //domains: [],
+                //driveLink: ''
               });
             }}
             className="px-6 py-3 bg-gradient-to-r from-violet-500 to-electric-500 text-white rounded-lg hover:shadow-lg transition-all duration-300"
@@ -246,9 +250,9 @@ useEffect(() => {
             className="text-center space-y-6"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white">
-              Become a{' '}
+             {/* Join us for the{' '} */}
               <span className="bg-gradient-to-r from-violet-400 to-electric-400 bg-clip-text text-transparent">
-                μMentor
+              μCR Orientation 2k25
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto">
@@ -279,7 +283,7 @@ useEffect(() => {
                 <>
                   <Clock className="w-8 h-8 text-yellow-400" />
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-yellow-400 mb-2">Recruitment Opens Soon!</h3>
+                    <h3 className="text-xl font-bold text-yellow-400 mb-2">Registrations Opens Soon!</h3>
                     <p className="text-gray-300 mb-2">
                       Applications will open on <strong>{formatDateIST(RECRUITMENT_START)}</strong>
                     </p>
@@ -297,7 +301,7 @@ useEffect(() => {
                 <>
                   <Calendar className="w-8 h-8 text-green-400" />
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-green-400 mb-2">🎉 Recruitment is Now Open!</h3>
+                    <h3 className="text-xl font-bold text-green-400 mb-2">🎉 Registrations is Now Open!</h3>
                     <p className="text-gray-300 mb-2">
                       Applications close on <strong>{formatDateIST(RECRUITMENT_END)}</strong>
                     </p>
@@ -315,12 +319,12 @@ useEffect(() => {
                 <>
                   <AlertCircle className="w-8 h-8 text-red-400" />
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-red-400 mb-2">Recruitment Period Closed</h3>
+                    <h3 className="text-xl font-bold text-red-400 mb-2">Registration Period Closed</h3>
                     <p className="text-gray-300 mb-2">
                       Applications closed on <strong>{formatDateIST(RECRUITMENT_END)}</strong>
                     </p>
                     <p className="text-gray-400">
-                      Thank you for your interest! Stay tuned for our next recruitment cycle.
+                      Thank you for your interest! You can still be a part of the Orientation just join the Whatsapp Helpdesk.
                     </p>
                   </div>
                 </>
@@ -341,7 +345,7 @@ useEffect(() => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Why Join μCR?
+              Why Attend μCR Orientaion?
             </h2>
             <p className="text-xl text-gray-400">
               Discover the benefits of being part of our robotics community
@@ -436,7 +440,7 @@ useEffect(() => {
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm">The Forms are only for <strong>Second Year</strong> Students</p>
+        <p className="text-sm">The Forms are only for <strong>First Year</strong> Students</p>
       </div>
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
@@ -446,10 +450,7 @@ useEffect(() => {
         <span className="text-violet-400 font-bold">•</span>
         <p className="text-sm">Enter your enrollment number exactly as it appears on your student ID card.</p>
       </div>
-      <div className="flex items-start space-x-2">
-        <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm"><strong>Domain Preferences:</strong> Rank ALL {domains.length} domains in order of your preference (1 = Most Preferred, {domains.length} = Least Preferred). Use the arrow buttons to reorder your selections.</p>
-      </div>
+      
       <div className="flex items-start space-x-2">
         <span className="text-violet-400 font-bold">•</span>
         <p className="text-sm">Only one application per student is allowed. Multiple submissions may lead to disqualification.</p>
@@ -465,10 +466,7 @@ useEffect(() => {
     WhatsApp Helpdesk
   </a></p>
       </div>
-      <div className="flex items-start space-x-2">
-        <span className="text-violet-400 font-bold">•</span>
-        <p className="text-sm">Drive link (portfolio/project showcase) is optional, but recommended for applicants interested in the <strong>Digital Domain</strong>, <strong>Cinematography</strong> or <strong>Technical Domain</strong> for showcasing past work and personal projects.</p>
-      </div>
+
     </div>
   </div>
 </div>
@@ -522,7 +520,7 @@ useEffect(() => {
                   <div>
                     <label className="block text-white font-medium mb-2">
                       <Mail className="w-4 h-4 inline mr-2" />
-                      Email Address *
+                      Personal Email *
                     </label>
                     <input
                       type="email"
@@ -572,21 +570,23 @@ useEffect(() => {
                     </select>
                   </div>
                
-               {/* Drive Link Input (Optional) */}
-                <div>
-                  <label className="block text-white font-medium mb-2">
-                    <Link className="w-4 h-4 inline mr-2" />
-                    Drive Link to Past Work (optional)
-                  </label>
-                  <input
-                    type="url"
-                    name="driveLink"
-                    value={formData.driveLink}
-                    onChange={handleInputChange}
-                    placeholder="https://drive.google.com/..."
-                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-violet-500 transition-colors"
-                  />
-                </div>
+                 <div>
+                    <label className="block text-white font-medium mb-2">
+                      <MapPin className="w-4 h-4 inline mr-2" />
+                      Campus *
+                    </label>
+                    <select
+                      name="campus"
+                      value={formData.campus}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-violet-500 transition-colors"
+                    >
+                      <option value="">Select Campus</option>
+                      <option value="62">62</option>
+                      <option value="128">128</option>
+                    </select>
+                  </div>
                  </div>
                 {/* Academic Information */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -627,14 +627,29 @@ useEffect(() => {
                     />
                   </div>
                 </div>
+                          <a
+      href="https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ" 
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full mt-4"
+    >
+      <button
+        type="button"
+        className="w-full px-4 py-3 bg-green-600 text-white rounded-lg border border-green-700 hover:bg-green-700 focus:outline-none focus:border-green-500 transition-colors flex items-center justify-center"
+      >
+        <FaWhatsapp className="w-5 h-5 mr-2" /> {/* Optional icon */}
+        Join WhatsApp Helpdesk
+      </button>
+    </a>
 
-                {/* Domain Preferences */}
+  {/*
+               
                 <div>
   <label className="block text-white font-medium mb-4">
     Domain Preferences (Rank all {domains.length} domains in order of preference) *
   </label>
 
-  {/* Available Domains */}
+  //available domains
   <div className="mb-6">
     <h4 className="text-sm font-medium text-gray-300 mb-3">
       Available Domains <span className="text-xs text-gray-500">(Click to add):</span>
@@ -656,7 +671,7 @@ useEffect(() => {
     </div>
   </div>
 
-                  {/* Selected Domains with Ranking */}
+                  // Selected Domains with Ranking 
                   {formData.domains.length > 0 && (
                     <div>
                       <h4 className="text-sm font-medium text-gray-300 mb-3">Your Preference Ranking:</h4>
@@ -713,12 +728,14 @@ useEffect(() => {
                     )}
                   </p>
                 </div>
+*/}
+      
 
                 {/* Submit Button */}
                 <div className="text-center pt-6">
                   <button
                     type="submit"
-                    disabled={isSubmitting || formData.domains.length !== domains.length}
+                    disabled={isSubmitting}
                     className="px-8 py-4 bg-gradient-to-r from-violet-500 to-electric-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2 mx-auto"
                   >
                     {isSubmitting ? (
@@ -761,14 +778,14 @@ useEffect(() => {
                     </span>
                   </h2>
                   <p className="text-xl text-gray-300 leading-relaxed">
-                    Our recruitment process will begin soon. Use this time to prepare your application
-                    and learn more about our various domains and ongoing projects.
+                    Our Registrations process will begin soon.
+                    Stay tuned for updates and mark your calendars for the opening date!
                   </p>
                   <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6">
                     <h3 className="text-lg font-semibold text-yellow-400 mb-3">How to Prepare:</h3>
                     <ul className="text-left text-gray-300 space-y-2">
-                      <li>• Explore our projects and understand different domains</li>
-                      <li>• Prepare for your Interview in preferred domain</li>
+                      <li>• Explore our projects </li>
+                      <li>• Connect with current members for guidance</li>
                       <li>• Follow us on social media for updates</li>
                       <li>
   • Join the{" "}
@@ -790,21 +807,33 @@ useEffect(() => {
                     <AlertCircle className="w-12 h-12 text-white" />
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold text-white">
-                    Recruitment{' '}
+                    Registration Forms{' '}
                     <span className="bg-gradient-to-r from-red-400 to-pink-400 bg-clip-text text-transparent">
                       Closed
                     </span>
                   </h2>
                   <p className="text-xl text-gray-300 leading-relaxed">
-                    Thank you for your interest in joining μCR! Our recruitment period has ended,
-                    but don't worry - we'll be back with new opportunities soon.
+                    Thank you for your interest in joining μCR! Unfortunately, the registration period has ended.
+                    However, you can still attend the Orientation and learn more about our community.
                   </p>
                   <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-6">
                     <h3 className="text-lg font-semibold text-blue-400 mb-3">Stay Connected:</h3>
                     <ul className="text-left text-gray-300 space-y-2">
-                      <li>• Follow our social media for next recruitment announcements</li>
+                      <li>• Follow our social media for Upcoming Events announcements</li>
                       <li>• Attend our events and workshops as a guest</li>
                       <li>• Connect with current members for guidance</li>
+                      <li>
+   • Reach out to our{" "}
+  <a
+    href="https://chat.whatsapp.com/Lx0UCvhKFwoHyMDu22YGiZ" // Replace with your actual WhatsApp number
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-green-400 hover:underline"
+  >
+    WhatsApp Helpdesk
+  </a>
+    {" "}for any queries or assistance.
+</li>
                     </ul>
                   </div>
                 </>

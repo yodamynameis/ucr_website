@@ -25,7 +25,7 @@ const Navbar = () => {
     { name: 'Team', path: '/team' },
     { name: 'Knowledge Hub', path: '/knowledge-hub' },
    // { name: 'Projects', path: '/projects' },
-    { name: 'Join Us', path: '/joinus' },
+    { name: 'Register', path: '/joinus' },
     { name: 'Contact', path: '/contact' },
   ];
 
