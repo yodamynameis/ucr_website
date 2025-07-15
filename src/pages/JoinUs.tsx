@@ -116,6 +116,8 @@ const [formData, setFormData] = useState<FormDataType>({
     'EE-VLSI',
     'EC-ACT',
     'M&C',
+    'Robotics & AI',
+    'CSE Cyber Security',
     'BioTech',
     'BBA',
     'Other'
