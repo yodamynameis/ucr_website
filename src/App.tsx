@@ -16,6 +16,7 @@ import Footer from './components/Footer';
 import ChatBot from './components/ChatBot';
 import ParticleBackground from './components/ParticleBackground';
 import ScrollToTop from './components/ScrollToTop';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Footer />
         <ChatBot />
       </div>
+      <Analytics />
     </Router>
   );
 }
