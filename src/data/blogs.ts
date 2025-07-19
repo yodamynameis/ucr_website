@@ -883,7 +883,7 @@ From basic RF remotes to advanced IoT networks — these tiny modules are wirele
 `,
   tags: ["Wireless", "NRF24L01", "IoT", "Robotics", "Embedded Systems"],
   category: "Communication",
-  author: "Ananya Priyadarshini & Kamna Thakur",
+  author: "Annanya Priyadarshini & Kamna Thakur",
 }
 
   // Add more blog objects...

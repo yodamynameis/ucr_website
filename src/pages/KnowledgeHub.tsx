@@ -133,7 +133,7 @@ const KnowledgeHub = () => {
     {
   id: 6,
   title: "NRF Modules: Tiny Radios for Big Wireless Projects",
-  author: "Ananya Priyadarshini & Kamna Thakur",
+  author: "Annanya Priyadarshini & Kamna Thakur",
   insta: "https://www.instagram.com/annanya_ps",
   date: "2025-07-20",
   category: "Communication",

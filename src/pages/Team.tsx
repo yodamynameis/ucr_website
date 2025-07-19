@@ -197,7 +197,7 @@ const Team = () => {
     },
       {
       id: 12,
-      name: "Ananya Priyadarshini",
+      name: "Annanya Priyadarshini",
       role: "Technical Head",
       category: "tech",
       branch: "Electronics & Communication Engineering",
