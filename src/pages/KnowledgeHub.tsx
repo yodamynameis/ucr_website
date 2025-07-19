@@ -129,6 +129,19 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+
+    {
+  id: 6,
+  title: "NRF Modules: Tiny Radios for Big Wireless Projects",
+  author: "Ananya Priyadarshini & Kamna Thakur",
+  insta: "https://www.instagram.com/annanya_ps",
+  date: "2025-07-20",
+  category: "Communication",
+  tags: ["Wireless", "NRF24L01", "IoT", "Robotics"],
+  excerpt: "Explore NRF modules, from the popular NRF24L01 to BLE-enabled NRF52 chips — learn how they work, how to use them in Arduino and IoT projects, and how to get the best performance.",
+  readTime: "8 min read",
+  image: "https://www.rcpano.net/wp-content/uploads/2024/02/Arduino-NRF24L01-Remote-Control-Connection-Problem-Why-do-not-work-RC.jpg"
+},
 {
   id: 5,
   title: "LiPo Batteries: Tiny Cells, Massive Power",
@@ -186,7 +199,7 @@ const KnowledgeHub = () => {
       insta: "https://www.instagram.com/sanskar__phougat/",
       date: "2025-06-15",
       category: "Robotics",
-      tags: ["Arduino", "Sensors", "Autonomous Navigation"],
+      tags: ["Arduino", "Sensor", "Autonomous Navigation"],
       excerpt: "Learn about Ardunio programming and its applications in robotics. This tutorial covers the basics of Arduino, sensor integration, and building autonomous robots.",
       readTime: "8 min read",
       image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D"
@@ -450,7 +463,7 @@ const KnowledgeHub = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center justify-between pt-4 border-t border-gray-700">
+                  <div className="flex felx-wrap items-center justify-between gap-2 pt-4 border-t border-gray-700">
                     <div className="text-sm text-gray-400">
                       By{" "}
                       <a
