@@ -129,7 +129,18 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
-
+    {
+  id: 7,
+  title: "DPDT Switch Demystified: Wired Control, Twice the Power",
+  author: "Ayush Agrawal",
+  insta: "https://www.instagram.com/ayushagrawal1839/",
+  date: "2025-07-27",
+  category: "Hardware",
+  tags: ["DPDT Switch", "Motor Reversal", "H-Bridge"],
+  excerpt: "Demystify DPDT switches, essential components for controlling two independent circuits. Learn their working principles, types, practical applications in robotics and motor control",
+  readTime: "10 min read",
+  image: "https://cdn.sparkfun.com/assets/6/e/d/9/0/517edbabce395fd51d000000.png"
+},
     {
   id: 6,
   title: "NRF Modules: Tiny Radios for Big Wireless Projects",
