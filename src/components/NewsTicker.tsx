@@ -3,11 +3,12 @@ import { motion } from 'framer-motion';
 
 const NewsTicker = () => {
  const news = [
+  { text: "📽️ Volunteer Interaction Reel Out Now!", url: "https://www.instagram.com/p/DM2IIHHpwy6/" },
   { text: "🆕 New Team Announced", url: "/team" },
   { text: "🤖 Volunteer Team Out Now!!", url: "https://www.instagram.com/p/DMDCINZJqao/?img_index=1" },
   { text:  "🎉Orientation Registrations are Now Open!", url: "/joinus" },
-  { text: "📰 Weekly Blog Posted", url: "/knowledge-hub" },
-  { text: "📽️ Year Rewind Reel Out Now", url: "https://www.instagram.com/p/DK1FtIeJCNX/" }
+  { text: "📰 Weekly Blog Posted", url: "/knowledge-hub" }
+  
 ];
 
 
