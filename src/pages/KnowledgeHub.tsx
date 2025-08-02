@@ -130,6 +130,18 @@ const KnowledgeHub = () => {
 
   const techBlogs = [
     {
+  id: 8,
+  title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
+  author: "Bristi Bisai & Amisha Mittal",
+  // insta: "https://www.instagram.com/ayushagrawal1839/",
+  date: "2025-08-03",
+  category: "Hardware",
+  tags: ["Arduino "," Data Logging "," Sensors"], 
+  excerpt: "DPDT switches can control two independent circuits simultaneously. Understand their working, explore types, and discover practical uses in robotics, motor control, and electronics projects.",
+  readTime: "8 min read",
+  image: "https://zbotic.in/wp-content/uploads/2020/06/IMG_6874.jpg"
+},
+    {
   id: 7,
   title: "DPDT Switch Demystified: Wired Control, Twice the Power",
   author: "Ayush Agrawal",
