@@ -1115,7 +1115,7 @@ Here’s how to wire the module to an Arduino Uno:
 | SCK        | D13            |
 | CS/SS      | D10 (default)  |
 
-⚠ Some SD modules require **3.3V logic only**. If your Arduino is 5V-based, ensure your module has a **built-in level shifter** or use resistors to step down the voltage.  
+⚠️ Some SD modules require **3.3V logic only**. If your Arduino is 5V-based, ensure your module has a **built-in level shifter** or use resistors to step down the voltage.  
 
 ---
 
