@@ -133,11 +133,11 @@ const KnowledgeHub = () => {
   id: 8,
   title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
   author: "Bristi Bisai & Amisha Mittal",
-  // insta: "https://www.instagram.com/ayushagrawal1839/",
+   insta: "https://www.instagram.com/ughbristiiiii/",
   date: "2025-08-03",
   category: "Hardware",
   tags: ["Arduino "," Data Logging "," Sensors"], 
-  excerpt: "DPDT switches can control two independent circuits simultaneously. Understand their working, explore types, and discover practical uses in robotics, motor control, and electronics projects.",
+  excerpt:"Micro SD card modules pack massive storage into a tiny form, enabling efficient data logging, storage, and transfer for electronics, IoT, and embedded projects.",
   readTime: "8 min read",
   image: "https://zbotic.in/wp-content/uploads/2020/06/IMG_6874.jpg"
 },

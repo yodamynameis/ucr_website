@@ -1045,12 +1045,12 @@ Whether you're wiring a robot motor or designing a control panel, the DPDT switc
 },
   {
   id: 8,
-  title: "DPDT Switch Demystified: Wired Control, Twice the Power",
+  title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
   image: "https://cdn.shopify.com/s/files/1/0300/6424/6919/files/SDcards_sensor_pinout.jpg?v=1682319220",
-  //insta: "https://www.instagram.com/ayushagrawal1839/",
+  insta: "https://www.instagram.com/amisha_m01/",
   date: "2025-08-03",
   readTime: "8 min read",
-  excerpt: "DPDT switches can control two independent circuits simultaneously. Understand their working, explore types, and discover practical uses in robotics, motor control, and electronics projects.",
+  excerpt: "Micro SD card modules pack massive storage into a tiny form, enabling efficient data logging, storage, and transfer for electronics, IoT, and embedded projects.",
   content: `
 ## 🔍 Introduction
 Ever wished your Arduino could store data like logging temperature changes, saving GPS routes, or recording sensor readings over time? That’s where the **Micro SD Card Module** comes in. It gives your microcontroller a reliable, low-cost way to store megabytes or even gigabytes of information locally.  
