@@ -1233,7 +1233,7 @@ By understanding just a few key concepts like SPI communication and file handlin
   id: 9,
   title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
   image: "https://www.electronicwings.com/storage/PlatformSection/TopicContent/421/description/ESP32%20Board%20Information.png",
-  //insta: "https://www.instagram.com/amisha_m01/",
+  insta: "https://www.instagram.com/_.vedant._77/",
   date: "2025-08-10",
   readTime: "10 min read",
   excerpt: "The ESP32 microcontroller packs Wi-Fi, Bluetooth, and dual-core processing into a compact form, making it the go-to choice for IoT, automation, and embedded system projects.",

@@ -134,7 +134,7 @@ const KnowledgeHub = () => {
   id: 9,
   title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
   author: "Vedant Singh & Utkarsh Gupta",
-  //insta: "https://www.instagram.com/ughbristiiiii/",
+  insta: "https://www.instagram.com/_.vedant._77/",
   date: "2025-08-10",
   category: "Hardware",
   tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
