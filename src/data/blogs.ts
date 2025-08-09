@@ -1398,9 +1398,15 @@ void loop() {
 
 ### 📌 Featured ESP32 Projects
 
-1. **Smart Home Automation** — Control lights, fans, and appliances via smartphone or voice assistants. *(YouTube: home automation video)*  
-2. **ESP32 Weather Station** — Displays sensor + API weather data on OLED. *(YouTube: esp 32 weather station)*  
-3. **ESP32 WiFi Camera** — Streams live video over WiFi. *(YouTube: esp 32 wifi camera)*  
+1. **Smart Home Automation** — Control lights, fans, and appliances via smartphone or voice assistants.  
+*(YouTube: [Smart Home Automation](https://youtu.be/PLM4MZdCLNM?si=UbhSNaft-ftiBKAt))*
+ 
+2. **ESP32 Weather Station** — Displays sensor + API weather data on OLED.  
+*(YouTube: [ESP32 Weather Station](https://youtu.be/R0vOP0x9tiU?si=i0XPOKOIrt8w15su))*
+  
+3. **ESP32 WiFi Camera** — Streams live video over WiFi.  
+*(YouTube: [ESP32 WiFi Camera](https://youtu.be/Ul0h5Maeoeg?si=T5_QKrKq6Zn395EQ))*
+  
 
 ---
 
