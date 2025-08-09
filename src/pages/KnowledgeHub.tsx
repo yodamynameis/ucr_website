@@ -129,6 +129,20 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+
+     {
+  id: 9,
+  title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
+  author: "Vedant Singh & Utkarsh Gupta",
+  //insta: "https://www.instagram.com/ughbristiiiii/",
+  date: "2025-08-10",
+  category: "Hardware",
+  tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
+  excerpt: "The ESP32 microcontroller packs Wi-Fi, Bluetooth, and dual-core processing into a compact form, making it the go-to choice for IoT, automation, and embedded system projects.",
+  readTime: "10 min read",
+  image: "https://home-assistant-guide.com/wp-content/uploads/2021/08/esp32-thumbnail.png"
+     },
+
     {
   id: 8,
   title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
