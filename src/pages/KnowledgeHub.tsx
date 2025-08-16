@@ -130,6 +130,19 @@ const KnowledgeHub = () => {
 
   const techBlogs = [
 
+    {
+  id: 10,
+  title: "Ultrasonic Sensors Demystified: Precision in Motion Detection",
+  author: "Sarthak Tripathi",
+  insta: "https://www.instagram.com/_quarky/",
+  date: "2025-08-17",
+  category: "Sensors",
+  tags: ["Ultrasonic Sensor", "Distance Measurement", "IoT"],
+excerpt: "An ultrasonic sensor measures distance using sound waves, enabling precise obstacle detection and ranging in robotics, IoT devices, and automation systems.",
+  readTime: "7 min read",
+  image: "https://cdn.mos.cms.futurecdn.net/YSNQkvg6L6rcYC7vAQZLLa.jpg"
+     },
+
      {
   id: 9,
   title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
