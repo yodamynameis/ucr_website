@@ -1417,7 +1417,7 @@ The ESP32 is a versatile, powerful, and affordable choice for IoT and embedded s
 
 🛠️ **Happy Making!**  
 
-*Got questions or project ideas involving Micro SD Card Modules? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
+*Got questions or project ideas involving ESP32 Microcontroller? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
   `,
   tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
   category: "Hardware",
@@ -1603,7 +1603,7 @@ Ultrasonic sensing proves that sometimes, machines don’t need eyes to “see�
 
 🛠️ **Happy Making!**  
 
-*Got questions or project ideas involving Micro SD Card Modules? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
+*Got questions or project ideas involving Ultrasonic Sensors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
   `,
 
 }
