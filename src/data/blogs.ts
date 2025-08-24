@@ -1606,6 +1606,158 @@ Ultrasonic sensing proves that sometimes, machines don’t need eyes to “see�
 *Got questions or project ideas involving Ultrasonic Sensors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
   `,
 
+},
+
+{
+  id: 11,
+  title: "Brushed DC Motor Demystified: Reliable Power in Motion",
+  image: "https://images.theengineeringprojects.com/image/main/2015/05/f36f957f72a093559175396d0ab32c18.jpg",
+  insta: "https://www.instagram.com/sshhambhavii/",
+  tags: ["DC Motor", "Motion Control", "Robotics"],
+  category: "Hardware",
+  author: "Aadya Mudgal & Shambhavi Sharma",
+  date: "2025-08-24",
+  readTime: "6 min read",
+  excerpt: "Brushed DC motors provide straightforward speed and torque control, making them ideal for robotics, automation, and low-cost motion systems.",
+  content: `  
+  ### ⚡ **Understanding Brushed DC Motors: Principles, Types, and Applications**  
+
+Brushed DC motors are one of the most widely used and time-tested actuators in electronics, robotics, and industry. Known for their simplicity, cost-effectiveness, and ease of control, these motors convert electrical energy into mechanical motion using brushes and a commutator. Whether it’s driving wheels in a robot, powering household appliances, or running conveyors in factories, brushed DC motors deliver reliable performance with straightforward control circuits.  
+
+---
+
+### 🧠 What is a Brushed DC Motor?  
+
+A brushed DC motor is an electromechanical device that converts direct current electrical energy into rotational motion using brushes and a commutator to switch current direction through the windings. Its design makes it highly intuitive for beginners while still powerful enough for industrial applications.  
+
+Compared to brushless motors, brushed DC motors are:  
+- Simple to control with just a DC supply  
+- Cost-effective and readily available  
+- Capable of providing high starting torque  
+- Easy to repair and maintain  
+
+---
+
+### ⚙️ Working Principle  
+
+The brushed DC motor operates by passing current through an armature winding inside a magnetic field. The brushes and commutator work together to reverse the current direction at the right moment, ensuring continuous rotation.  
+
+#### 🔁 Motion Process  
+
+**🆕 Current Flow and Force**  
+- Current flows through windings  
+- Interaction with magnetic field produces torque  
+
+**🔄 Commutation**  
+- Brushes switch polarity of current  
+- Ensures continuous rotation  
+
+---
+
+### 🧰 Brushed DC Motor Structure  
+
+| Component      | Function                                                                 |
+|----------------|---------------------------------------------------------------------------|
+| **Stator**      | The stationary part providing the magnetic field (permanent magnet or electromagnet). |
+| **Rotor (Armature)** | The rotating coil that carries current and experiences torque.           |
+| **Commutator**  | A rotary switch that reverses current direction through the windings.      |
+| **Brushes**     | Conductive contacts (usually carbon) that press against the commutator.    |
+
+---
+
+### 🧪 Key Terms Explained  
+
+- **Armature** – Rotating coil that carries current  
+- **Commutation** – Switching of current direction via brushes  
+- **Back EMF** – Voltage generated opposing input current, proportional to speed  
+- **Stall Current** – Maximum current when rotor is not moving  
+- **Torque Constant** – Relationship between current and torque produced  
+
+---
+
+### ⚖️ RPM vs Torque: The Balancing Act in Brushed DC Motors  
+
+One of the defining characteristics of a brushed DC motor is the inverse relationship between its speed (RPM) and torque.  
+
+- **No load** → Maximum RPM, minimal torque  
+- **Stall condition** → Maximum torque, zero RPM  
+
+Between these extremes lies the **linear torque–speed curve**:  
+
+- High torque → Low speed (robot wheels, automotive starters)  
+- High speed → Low torque (fans, mixers)  
+
+Understanding this trade-off is essential for **efficient motor selection**.  
+
+---
+
+### ⚙️ Applications of Brushed DC Motors  
+
+- 🤖 **Robotics** – Drive wheels, arms, and actuators  
+- 🏠 **Household Appliances** – Fans, mixers, vacuum cleaners  
+- 🚗 **Automotive** – Power windows, seat adjusters, windshield wipers  
+- ⚙️ **Industrial** – Conveyor belts, pumps, small machinery  
+- 🧪 **Education** – Demonstrations of electromagnetic principles  
+
+---
+
+### ⚠️ Limitations of Brushed DC Motors  
+
+- Brush Wear – Brushes degrade with time and need replacement  
+- Electrical Noise – Brushes create sparks and EMI  
+- Lower Efficiency – Compared to brushless motors  
+- Limited Lifespan – Due to mechanical wear  
+- Higher Maintenance – Brushes and commutators require upkeep  
+
+---
+
+### 💡 Best Practices for Use  
+
+✅ Choose appropriate voltage and current ratings  
+✅ Avoid stalling for long durations  
+✅ Use snubber circuits or diodes for protection  
+✅ Maintain brushes and commutators  
+✅ Consider cooling methods for heavy loads  
+
+---
+
+### 🔄 Brushed DC Motor in Action: Example  
+
+**🔌 Setup**  
+- Motor connected to DC supply through an H-bridge  
+- Polarity reversal changes motor direction  
+
+**⚠️ Result**  
+- Forward polarity → Wheel moves forward  
+- Reverse polarity → Wheel moves backward  
+- Supply off → Motor idle  
+
+**🔢 Runtime Calculation Equivalent (Motor Lifespan)**  
+Motor Lifespan ≈ (Brush Life in hours) × (Duty Cycle)  
+
+Example:  
+If a motor has a brush life of **1000 hours** and is used **2 hours/day**:  
+- 1000 / 2 = 500 days ≈ **1.4 years**  
+
+Always check datasheets for rated lifespan and conditions.  
+
+---
+
+### ✅ Summary  
+
+Brushed DC motors are foundational components in electromechanical systems. Their **simplicity, reliability, and cost-effectiveness** make them suitable for robotics, household devices, and industrial automation.  
+
+By understanding their **structure, operation, and best practices**, you can extend their lifespan and get the best performance out of them.  
+
+---
+
+🛠️ **Happy Making!**  
+
+*Got questions or project ideas involving Brushed DC Motors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF; text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
+  `,
+
 }
-  // Add more blog objects...
+
+
+// Add more blog objects...
 ];

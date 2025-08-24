@@ -131,13 +131,27 @@ const KnowledgeHub = () => {
   const techBlogs = [
 
     {
+  id: 11,
+  title: "Brushed DC Motor Demystified: Reliable Power in Motion",
+  author: "Aadya Mudgal & Shambhavi Sharma",
+  insta: "https://www.instagram.com/aady4core/",
+  date: "2025-08-24",
+  category: "Hardware",
+tags: ["DC Motor", "Motion Control", "Robotics"],
+excerpt: "Brushed DC motors provide straightforward speed and torque control, making them ideal for robotics, automation, and low-cost motion systems.",
+  readTime: "6 min read",
+  image: "https://assunmotor.com/blog/wp-content/uploads/round_brushless_dc_motor-sideview.jpeg"
+     },
+
+
+    {
   id: 10,
   title: "Ultrasonic Sensors Demystified: Precision in Motion Detection",
   author: "Sarthak Tripathi",
   insta: "https://www.instagram.com/_quarky/",
   date: "2025-08-17",
   category: "Sensors",
-  tags: ["Ultrasonic Sensor", "Distance Measurement", "IoT"],
+  tags: ["Ultrasonic Sensor", "Distance", "IoT"],
 excerpt: "An ultrasonic sensor measures distance using sound waves, enabling precise obstacle detection and ranging in robotics, IoT devices, and automation systems.",
   readTime: "7 min read",
   image: "https://cdn.mos.cms.futurecdn.net/YSNQkvg6L6rcYC7vAQZLLa.jpg"

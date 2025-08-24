@@ -38,8 +38,10 @@ export default function BlogPost() {
         <img
           src={blog.image}
           alt={blog.title}
-          className="rounded-lg mb-6 w-full h-auto max-h-96 object-cover"
-        />
+          className={`rounded-lg mb-6 w-full h-auto ${
+    blog.id === 11 ? "max-h-64 object-contain bg-gray-100 p-2" : "max-h-96 object-cover"
+  }`}
+         />
 
 
         <div className="flex flex-wrap gap-2">
