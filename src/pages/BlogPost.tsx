@@ -56,8 +56,8 @@ export default function BlogPost() {
           ))}
         </div>
 
-        <div className="text-sm text-gray-400">
-  By{" "}
+        <div className="text-sm text-gray-400 my-4">
+  Written by{" "}
   {Array.isArray(blog.author)
     ? blog.author.map((a, index) => (
         <span key={index}>
@@ -69,11 +69,13 @@ export default function BlogPost() {
           >
             {a.name}
           </a>
-          {index < blog.author.length - 1 && ", "}
+          {index < blog.author.length - 2 && ", "}
+          {index === blog.author.length - 2 && " & "}
         </span>
       ))
     : blog.author}
 </div>
+
 
 <div className="prose prose-invert max-w-none text-gray-300 mb-6">
  <ReactMarkdown

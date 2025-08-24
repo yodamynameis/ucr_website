@@ -551,7 +551,9 @@ const KnowledgeHub = () => {
                           >
                             {author.name}
                           </a>
-                          {index < blog.authors.length - 1 && ", "}
+                          {index < blog.authors.length - 2 && ", "}
+                          {index === blog.authors.length - 2 && " & "}
+
                         </span>
                       ))}
                     </div>
