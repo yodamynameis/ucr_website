@@ -56,17 +56,25 @@ export default function BlogPost() {
           ))}
         </div>
 
-        <div className="mt-6 text-sm text-gray-400">
-                Written by{" "}
-                <a
-                  href={blog.insta}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-violet-400 hover:underline"
-                >
-                  {blog.author}
-                </a>
-        </div><br />
+        <div className="text-sm text-gray-400">
+  By{" "}
+  {Array.isArray(blog.author)
+    ? blog.author.map((a, index) => (
+        <span key={index}>
+          <a
+            href={a.insta}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-violet-400 hover:underline"
+          >
+            {a.name}
+          </a>
+          {index < blog.author.length - 1 && ", "}
+        </span>
+      ))
+    : blog.author}
+</div>
+
 <div className="prose prose-invert max-w-none text-gray-300 mb-6">
  <ReactMarkdown
   remarkPlugins={[remarkGfm]}

@@ -129,145 +129,157 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+  {
+    id: 11,
+    title: "Brushed DC Motor Demystified: Reliable Power in Motion",
+    authors: [
+      { name: "Aadya Mudgal", insta: "https://www.instagram.com/aady4core/" },
+      { name: "Shambhavi Sharma", insta: "https://www.instagram.com/sshhambhavii/" }
+    ],
+    date: "2025-08-24",
+    category: "Hardware",
+    tags: ["DC Motor", "Motion Control", "Robotics"],
+    excerpt: "Brushed DC motors provide straightforward speed and torque control, making them ideal for robotics, automation, and low-cost motion systems.",
+    readTime: "6 min read",
+    image: "https://assunmotor.com/blog/wp-content/uploads/round_brushless_dc_motor-sideview.jpeg"
+  },
+  {
+    id: 10,
+    title: "Ultrasonic Sensors Demystified: Precision in Motion Detection",
+    authors: [
+      { name: "Sarthak Tripathi", insta: "https://www.instagram.com/_quarky/" }
+    ],
+    date: "2025-08-17",
+    category: "Sensors",
+    tags: ["Ultrasonic Sensor", "Distance", "IoT"],
+    excerpt: "An ultrasonic sensor measures distance using sound waves, enabling precise obstacle detection and ranging in robotics, IoT devices, and automation systems.",
+    readTime: "7 min read",
+    image: "https://cdn.mos.cms.futurecdn.net/YSNQkvg6L6rcYC7vAQZLLa.jpg"
+  },
+  {
+    id: 9,
+    title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
+    authors: [
+      { name: "Vedant Singh", insta: "https://www.instagram.com/_.vedant._77/" },
+      { name: "Utkarsh Gupta", insta: "" }
+    ],
+    date: "2025-08-10",
+    category: "Hardware",
+    tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
+    excerpt: "The ESP32 microcontroller packs Wi-Fi, Bluetooth, and dual-core processing into a compact form, making it the go-to choice for IoT, automation, and embedded system projects.",
+    readTime: "10 min read",
+    image: "https://home-assistant-guide.com/wp-content/uploads/2021/08/esp32-thumbnail.png"
+  },
+  {
+    id: 8,
+    title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
+    authors: [
+      { name: "Bristi Bisai", insta: "https://www.instagram.com/ughbristiiiii/" },
+      { name: "Amisha Mittal", insta: "https://www.instagram.com/amisha_m01/" }
+    ],
+    date: "2025-08-03",
+    category: "Hardware",
+    tags: ["Arduino", "Data Logging", "Sensors"],
+    excerpt: "Micro SD card modules pack massive storage into a tiny form, enabling efficient data logging, storage, and transfer for electronics, IoT, and embedded projects.",
+    readTime: "8 min read",
+    image: "https://zbotic.in/wp-content/uploads/2020/06/IMG_6874.jpg"
+  },
+  {
+    id: 7,
+    title: "DPDT Switch Demystified: Wired Control, Twice the Power",
+    authors: [
+      { name: "Ayush Agrawal", insta: "https://www.instagram.com/ayushagrawal1839/" }
+    ],
+    date: "2025-07-27",
+    category: "Hardware",
+    tags: ["DPDT Switch", "Motor Reversal", "H-Bridge"],
+    excerpt: "Demystify DPDT switches, essential components for controlling two independent circuits. Learn their working principles, types, practical applications in robotics and motor control",
+    readTime: "10 min read",
+    image: "https://cdn.sparkfun.com/assets/6/e/d/9/0/517edbabce395fd51d000000.png"
+  },
+  {
+    id: 6,
+    title: "NRF Modules: Tiny Radios for Big Wireless Projects",
+    authors: [
+      { name: "Annanya Priyadarshini", insta: "https://www.instagram.com/annanya_ps" },
+      { name: "Kamna Thakur", insta: "https://www.instagram.com/kamnaaa_22/" }
+    ],
+    date: "2025-07-20",
+    category: "Communication",
+    tags: ["Wireless", "NRF24L01", "IoT", "Robotics"],
+    excerpt: "Explore NRF modules, from the popular NRF24L01 to BLE-enabled NRF52 chips — learn how they work, how to use them in Arduino and IoT projects, and how to get the best performance.",
+    readTime: "8 min read",
+    image: "https://www.rcpano.net/wp-content/uploads/2024/02/Arduino-NRF24L01-Remote-Control-Connection-Problem-Why-do-not-work-RC.jpg"
+  },
+  {
+    id: 5,
+    title: "LiPo Batteries: Tiny Cells, Massive Power",
+    authors: [
+      { name: "Rishabh Kapur", insta: "https://www.instagram.com/rishabh.kapur/" }
+    ],
+    date: "2025-07-13",
+    category: "Hardware",
+    tags: ["Electronics", "Power", "Batteries", "LiPo"],
+    excerpt: "Discover the fundamentals of Lithium Polymer (LiPo) batteries, their advantages for portable electronics and RC projects, and essential safety tips for charging and handling.",
+    readTime: "7 min read",
+    image: "https://robosynckits.in/wp-content/uploads/2021/06/or.png"
+  },
+  {
+    id: 4,
+    title: "7-Segment Displays: Illuminating Numbers with Ease",
+    authors: [
+      { name: "Shivansh Agarwal", insta: "https://www.instagram.com/_shivansh.agarwal_/" }
+    ],
+    date: "2025-07-06",
+    category: "Hardware",
+    tags: ["Electronics", "Displays", "7-Segment"],
+    excerpt: "Learn how 7-segment displays work to show numbers and characters, and explore practical wiring techniques to integrate them with microcontrollers.",
+    readTime: "8 min read",
+    image: "https://external-preview.redd.it/i-made-a-7-segment-display-module-that-allows-you-to-add-v0-Oys86qV1ClNmLsjpou8ZTD6HjmEaP4uvWuQW91HofFo.jpg?auto=webp&s=99075413144134b559de67677d5db5c9f5482034"
+  },
+  {
+    id: 3,
+    title: "Servo Motors: A Beginner's Guide",
+    authors: [
+      { name: "Bhavyanshika Gupta", insta: "https://www.instagram.com/_bhavyanshikagupta_9453/" },
+      { name: "Maanya Gupta", insta: "https://www.instagram.com/maanya.g14/" }
+    ],
+    date: "2025-06-29",
+    category: "Hardware",
+    tags: ["Electronics", "Servo Motors"],
+    excerpt: "Discover how servo motors enable precise motion control in robotics and automation, and how to connect them with your microcontroller.",
+    readTime: "12 min read",
+    image: "https://soldered.com/productdata/2015/02/DSC_2916-Edit.jpg"
+  },
+  {
+    id: 2,
+    title: "Infrared Sensors in Robotics",
+    authors: [
+      { name: "Kushal Makkar", insta: "https://www.instagram.com/kushal_m_06/" },
+      { name: "Vanshika Aggarwal", insta: "https://www.instagram.com/vanshika_7605/" }
+    ],
+    date: "2025-06-22",
+    category: "Sensors",
+    tags: ["Arduino", "Electronics", "Infrared Sensors"],
+    excerpt: "Discover how IR sensors enable object detection and line following in robots, and how to connect them with Arduino.",
+    readTime: "10 min read",
+    image: "https://srituhobby.com/wp-content/uploads/2021/04/1-36.jpg"
+  },
+  {
+    id: 1,
+    title: "Working with Arduino",
+    authors: [
+      { name: "Sanskar Phougat", insta: "https://www.instagram.com/sanskar__phougat/" }
+    ],
+    date: "2025-06-15",
+    category: "Robotics",
+    tags: ["Arduino", "Sensor", "Autonomous Navigation"],
+    excerpt: "Learn about Ardunio programming and its applications in robotics. This tutorial covers the basics of Arduino, sensor integration, and building autonomous robots.",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D"
+  }
 
-    {
-  id: 11,
-  title: "Brushed DC Motor Demystified: Reliable Power in Motion",
-  author: "Aadya Mudgal & Shambhavi Sharma",
-  insta: "https://www.instagram.com/aady4core/",
-  date: "2025-08-24",
-  category: "Hardware",
-tags: ["DC Motor", "Motion Control", "Robotics"],
-excerpt: "Brushed DC motors provide straightforward speed and torque control, making them ideal for robotics, automation, and low-cost motion systems.",
-  readTime: "6 min read",
-  image: "https://assunmotor.com/blog/wp-content/uploads/round_brushless_dc_motor-sideview.jpeg"
-     },
 
-
-    {
-  id: 10,
-  title: "Ultrasonic Sensors Demystified: Precision in Motion Detection",
-  author: "Sarthak Tripathi",
-  insta: "https://www.instagram.com/_quarky/",
-  date: "2025-08-17",
-  category: "Sensors",
-  tags: ["Ultrasonic Sensor", "Distance", "IoT"],
-excerpt: "An ultrasonic sensor measures distance using sound waves, enabling precise obstacle detection and ranging in robotics, IoT devices, and automation systems.",
-  readTime: "7 min read",
-  image: "https://cdn.mos.cms.futurecdn.net/YSNQkvg6L6rcYC7vAQZLLa.jpg"
-     },
-
-     {
-  id: 9,
-  title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
-  author: "Vedant Singh & Utkarsh Gupta",
-  insta: "https://www.instagram.com/_.vedant._77/",
-  date: "2025-08-10",
-  category: "Hardware",
-  tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
-  excerpt: "The ESP32 microcontroller packs Wi-Fi, Bluetooth, and dual-core processing into a compact form, making it the go-to choice for IoT, automation, and embedded system projects.",
-  readTime: "10 min read",
-  image: "https://home-assistant-guide.com/wp-content/uploads/2021/08/esp32-thumbnail.png"
-     },
-
-    {
-  id: 8,
-  title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
-  author: "Bristi Bisai & Amisha Mittal",
-   insta: "https://www.instagram.com/ughbristiiiii/",
-  date: "2025-08-03",
-  category: "Hardware",
-  tags: ["Arduino "," Data Logging "," Sensors"], 
-  excerpt:"Micro SD card modules pack massive storage into a tiny form, enabling efficient data logging, storage, and transfer for electronics, IoT, and embedded projects.",
-  readTime: "8 min read",
-  image: "https://zbotic.in/wp-content/uploads/2020/06/IMG_6874.jpg"
-},
-    {
-  id: 7,
-  title: "DPDT Switch Demystified: Wired Control, Twice the Power",
-  author: "Ayush Agrawal",
-  insta: "https://www.instagram.com/ayushagrawal1839/",
-  date: "2025-07-27",
-  category: "Hardware",
-  tags: ["DPDT Switch", "Motor Reversal", "H-Bridge"],
-  excerpt: "Demystify DPDT switches, essential components for controlling two independent circuits. Learn their working principles, types, practical applications in robotics and motor control",
-  readTime: "10 min read",
-  image: "https://cdn.sparkfun.com/assets/6/e/d/9/0/517edbabce395fd51d000000.png"
-},
-    {
-  id: 6,
-  title: "NRF Modules: Tiny Radios for Big Wireless Projects",
-  author: "Annanya Priyadarshini & Kamna Thakur",
-  insta: "https://www.instagram.com/annanya_ps",
-  date: "2025-07-20",
-  category: "Communication",
-  tags: ["Wireless", "NRF24L01", "IoT", "Robotics"],
-  excerpt: "Explore NRF modules, from the popular NRF24L01 to BLE-enabled NRF52 chips — learn how they work, how to use them in Arduino and IoT projects, and how to get the best performance.",
-  readTime: "8 min read",
-  image: "https://www.rcpano.net/wp-content/uploads/2024/02/Arduino-NRF24L01-Remote-Control-Connection-Problem-Why-do-not-work-RC.jpg"
-},
-{
-  id: 5,
-  title: "LiPo Batteries: Tiny Cells, Massive Power",
-  author: "Rishabh Kapur",
-  insta: "https://www.instagram.com/rishabh.kapur/",
-  date: "2025-07-13",
-  category: "Hardware",
-  tags: ["Electronics", "Power", "Batteries", "LiPo"],
-  excerpt: "Discover the fundamentals of Lithium Polymer (LiPo) batteries, their advantages for portable electronics and RC projects, and essential safety tips for charging and handling.",
-  readTime: "7 min read",
-  image: "https://robosynckits.in/wp-content/uploads/2021/06/or.png"
-},
-    {
-  id: 4,
-  title: "7-Segment Displays: Illuminating Numbers with Ease",
-  author: "Shivansh Agarwal",
-  insta: "https://www.instagram.com/_shivansh.agarwal_/",
-  date: "2025-07-06",
-  category: "Hardware",
-  tags: ["Electronics", "Displays", "7-Segment"],
-  excerpt: "Learn how 7-segment displays work to show numbers and characters, and explore practical wiring techniques to integrate them with microcontrollers.",
-  readTime: "8 min read",
-  image: "https://external-preview.redd.it/i-made-a-7-segment-display-module-that-allows-you-to-add-v0-Oys86qV1ClNmLsjpou8ZTD6HjmEaP4uvWuQW91HofFo.jpg?auto=webp&s=99075413144134b559de67677d5db5c9f5482034"
-},
-
-    {
-      id: 3,
-      title: "Servo Motors: A Beginner's Guide",
-      author: "Bhavyanshika Gupta aur Maanya Gupta",
-      insta: "https://www.instagram.com/maanya.g14/",
-      date: "2025-06-29",
-      category: "Hardware",
-      tags: ["Electronics", "Servo Motors"],
-      excerpt:"Discover how servo motors enable precise motion control in robotics and automation, and how to connect them with your microcontroller.",
-      readTime: "12 min read",
-      image: "https://soldered.com/productdata/2015/02/DSC_2916-Edit.jpg"
-    },
-
-      {
-      id: 2,
-      title: "Infrared Sensors in Robotics",
-      author: "Kushal Makkar & Vanshika Aggarwal",
-      insta: "https://www.instagram.com/kushal_m_06/",
-      date: "2025-06-22",
-      category: "Sensors",
-      tags: ["Arduino", "Electronics", "Infrared Sensors"],
-      excerpt: "Discover how IR sensors enable object detection and line following in robots, and how to connect them with Arduino.",
-      readTime: "10 min read",
-      image: "https://srituhobby.com/wp-content/uploads/2021/04/1-36.jpg"
-    },
-    {
-      id: 1,
-      title: "Working with Arduino",
-      author: "Sanskar Phougat",
-      insta: "https://www.instagram.com/sanskar__phougat/",
-      date: "2025-06-15",
-      category: "Robotics",
-      tags: ["Arduino", "Sensor", "Autonomous Navigation"],
-      excerpt: "Learn about Ardunio programming and its applications in robotics. This tutorial covers the basics of Arduino, sensor integration, and building autonomous robots.",
-      readTime: "8 min read",
-      image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D"
-    },
   
     // {
     //   id: 2,
@@ -280,8 +292,7 @@ excerpt: "An ultrasonic sensor measures distance using sound waves, enabling pre
     //   readTime: "12 min read",
     //   image: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg"
     // }
-  ];
-
+];
   const categories = [
     { id: 'all', name: 'All Categories' },
     { id: 'programming', name: 'Programming' },
@@ -530,15 +541,21 @@ excerpt: "An ultrasonic sensor measures distance using sound waves, enabling pre
                   <div className="flex felx-wrap items-center justify-between gap-2 pt-4 border-t border-gray-700">
                     <div className="text-sm text-gray-400">
                       By{" "}
-                      <a
-                        href={blog.insta}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-violet-400 hover:underline"
-                      >
-                        {blog.author}
-                        </a>
+                      {blog.authors.map((author, index) => (
+                        <span key={index}>
+                          <a
+                            href={author.insta}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-violet-400 hover:underline"
+                          >
+                            {author.name}
+                          </a>
+                          {index < blog.authors.length - 1 && ", "}
+                        </span>
+                      ))}
                     </div>
+
  <Link
   to={`/blog/${blog.id}`}
   className="flex items-center space-x-2 text-violet-400 hover:text-violet-300 transition-colors">

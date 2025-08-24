@@ -2,8 +2,12 @@ export const blogs = [
   {
     id: 1,
     title: "Working with Arduino",
-    image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D",
-    insta: "https://www.instagram.com/sanskar__phougat/",
+    image: "https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHx8MA%3D%3D",  
+    author: [
+      { name: "Sanskar Phougat", insta: "https://www.instagram.com/sanskar__phougat/" }
+    ],  
+    tags: ["Arduino", "Sensors", "Autonomous Navigation"],
+    category: "Microcontrollers",
     date: "2025-06-18",
     readTime: "8 min read",
     excerpt: "Explore how Arduino is transforming the world of electronics and robotics...",
@@ -49,20 +53,20 @@ Arduino comes with its own IDE (Integrated Development Environment), where you w
 3. **Select the correct board and COM port** from \`Tools > Board\` and \`Tools > Port\`.
 4. **Write your first sketch**
 `
-,
-
-    tags: ["Arduino", "Sensors", "Autonomous Navigation"],
-    category: "Microcontrollers",
-    author: "Sanskar Phougat"
   }
     ,
   {
     id: "2",
     title: "Infrared Sensors in Robotics",
     image: "https://www.circuits-diy.com/wp-content/uploads/2021/10/ir-infrared-sensor-module-circuit-electronic-project.jpg",
-          insta: "https://www.instagram.com/kushal_m_06/",
     date: "202-06-22",
+    author: [
+      { name: "Kushal Makkar", insta: "https://www.instagram.com/kushal_m_06/" },
+      { name: "Vanshika Aggarwal", insta: "https://www.instagram.com/vanshika_7605/" }
+    ],
     readTime: "10 min read",
+     tags: ["Arduino", "Electronics", "Infrared Sensors"],
+    category: "Sensors",
     excerpt:  "Discover how IR sensors enable object detection and line following in robots, and how to connect them with Arduino.",
     content: `
 # 🔍 Understanding IR Sensors: Principles, Types, and Applications
@@ -193,9 +197,6 @@ IR sensors are versatile, affordable, and easy to integrate into a wide range of
 
 
     `,
-    tags: ["Arduino", "Electronics", "Infrared Sensors"],
-    category: "Sensors",
-    author: "Kushal Makkar & Vanshika Aggarwal"
   },
 
   
@@ -203,7 +204,12 @@ IR sensors are versatile, affordable, and easy to integrate into a wide range of
   id: 3,
   title: "Servo Motors: A Beginner's Guide",
   image: "https://soldered.com/productdata/2015/02/DSC_2916-Edit.jpg",
-  insta: "https://www.instagram.com/maanya.g14/",
+  tags: ["Electronics", "Servo Motors", "Microcontroller", "Robotics"],
+  category: "Hardware",
+   author: [
+      { name: "Bhavyanshika Gupta", insta: "https://www.instagram.com/_bhavyanshikagupta_9453/" },
+      { name: "Maanya Gupta", insta: "https://www.instagram.com/maanya.g14/" }
+    ],
   date: "2025-06-29",
   readTime: "12 min read",
   excerpt: "Discover how servo motors enable precise motion control in robotics and automation, and how to connect them with your microcontroller.",
@@ -318,17 +324,17 @@ void loop() {
 
 *Got questions or project ideas involving IR sensors? Join the discussion on our <a href="https://discord.gg/Jp4Kje999B" style="color:#1E90FF;  text-decoration: none;" target="_blank">Discord server</a> and share your builds with the community!*
 `,
-  tags: ["Electronics", "Servo Motors", "Microcontroller", "Robotics"],
-  category: "Hardware",
-  author: "Bhavyanshika Gupta and Maanya Gupta"
+  
 },
 
 {
     id: 4,
     title:  "7-Segment Displays: Illuminating Numbers with Ease",
     image: "https://www.electronicsforu.com/wp-contents/uploads/2022/11/7-Segment-Display-Types.png",
-    insta: "https://www.instagram.com/_shivansh.agarwal_/",
     date: "2025-07-06",
+     author: [
+      { name: "Shivansh Agarwal", insta: "https://www.instagram.com/_shivansh.agarwal_/" }
+    ],
     readTime: "8 min read",
     excerpt: "Learn how 7-segment displays work to show numbers and characters, and explore practical wiring techniques to integrate them with microcontrollers.",
  content:`
@@ -488,16 +494,17 @@ void displayDigit(int num) {
 
   tags: ["Electronics", "Displays", "7-Segment"],
   category: "Hardware",
-    author: "Shivansh Agarwal"
   },
 
 {
   id: 5,
   title: "LiPo Batteries: Tiny Cells, Massive Power",
   image: "https://robosynckits.in/wp-content/uploads/2021/06/or.png",
-  insta: "https://www.instagram.com/rishabh.kapur/",
   date: "2025-07-13",
   readTime: "7 min read",
+   author: [
+      { name: "Rishabh Kapur", insta: "https://www.instagram.com/rishabh.kapur/" }
+    ],
   excerpt: "Discover the fundamentals of Lithium Polymer (LiPo) batteries, their advantages for portable electronics and RC projects, and essential safety tips for charging and handling.",
   content: `
 # 🔋 Understanding LiPo Batteries: Principles, Types, and Applications
@@ -675,14 +682,16 @@ Whether you're a hobbyist building an FPV drone or an engineer powering a wearab
 `,
   tags: ["Electronics", "Power", "Batteries", "LiPo"],
   category: "Hardware",
-  author: "Rishabh Kapur"
 },
 {
   id: 6,
   title: "NRF Modules: Tiny Radios for Big Wireless Projects",
   image: "https://components101.com/sites/default/files/component_pin/nRF24L01-Pinout.png",
-  insta: "https://www.instagram.com/annanya_ps",
   date: "2025-07-20",
+  author: [
+      { name: "Annanya Priyadarshini", insta: "https://www.instagram.com/annanya_ps" },
+      { name: "Kamna Thakur", insta: "https://www.instagram.com/kamnaaa_22/" }
+    ],
   readTime: "8 min read",
   excerpt: "Explore NRF modules, from the popular NRF24L01 to BLE-enabled NRF52 chips — learn how they work, how to use them in Arduino and IoT projects, and how to get the best performance.",
   content: `
@@ -883,13 +892,14 @@ From basic RF remotes to advanced IoT networks — these tiny modules are wirele
 `,
   tags: ["Wireless", "NRF24L01", "IoT", "Robotics", "Embedded Systems"],
   category: "Communication",
-  author: "Annanya Priyadarshini & Kamna Thakur",
 },
 {
   id: 7,
   title: "DPDT Switch Demystified: Wired Control, Twice the Power",
  image: "https://cdn.sparkfun.com/assets/6/e/d/9/0/517edbabce395fd51d000000.png",
-  insta: "https://www.instagram.com/ayushagrawal1839/",
+ author: [
+      { name: "Ayush Agrawal", insta: "https://www.instagram.com/ayushagrawal1839/" }
+    ],
   date: "2025-07-27",
   readTime: "10 min read",
   excerpt: "Demystify DPDT switches, essential components for controlling two independent circuits. Learn their working principles, types, practical applications in robotics and motor control",
@@ -1041,14 +1051,16 @@ Whether you're wiring a robot motor or designing a control panel, the DPDT switc
 `,
   tags: ["DPDT Switch", "Motor Reversal", "H-Bridge"],
   category: "Hardware",
-  author: "Ayush Agrawal",
 },
   {
   id: 8,
   title: "Micro SD Card Modules: The Tiny Genius behind Big Data Storage",
   image: "https://cdn.shopify.com/s/files/1/0300/6424/6919/files/SDcards_sensor_pinout.jpg?v=1682319220",
-  insta: "https://www.instagram.com/amisha_m01/",
   date: "2025-08-03",
+  author: [
+      { name: "Bristi Bisai", insta: "https://www.instagram.com/ughbristiiiii/" },
+      { name: "Amisha Mittal", insta: "https://www.instagram.com/amisha_m01/" }
+    ],
   readTime: "8 min read",
   excerpt: "Micro SD card modules pack massive storage into a tiny form, enabling efficient data logging, storage, and transfer for electronics, IoT, and embedded projects.",
   content: `
@@ -1226,15 +1238,17 @@ By understanding just a few key concepts like SPI communication and file handlin
   `,
   tags: ["Arduino", "Data Logging", "Sensors"], 
   category: "Hardware",
-  author: "Bristi Bisai & Amisha Mittal"
 },
 
 {
   id: 9,
   title: "ESP32: The Powerhouse of IoT and Embedded Innovation",
   image: "https://www.electronicwings.com/storage/PlatformSection/TopicContent/421/description/ESP32%20Board%20Information.png",
-  insta: "https://www.instagram.com/_.vedant._77/",
   date: "2025-08-10",
+  author: [
+      { name: "Vedant Singh", insta: "https://www.instagram.com/_.vedant._77/" },
+      { name: "Utkarsh Gupta", insta: "" }
+    ],
   readTime: "10 min read",
   excerpt: "The ESP32 microcontroller packs Wi-Fi, Bluetooth, and dual-core processing into a compact form, making it the go-to choice for IoT, automation, and embedded system projects.",
   content: `
@@ -1421,17 +1435,17 @@ The ESP32 is a versatile, powerful, and affordable choice for IoT and embedded s
   `,
   tags: ["ESP32", "IoT", "Wi-Fi", "Bluetooth"],
   category: "Hardware",
-  author: "Vedant Singh & Utkarsh Gupta",
 },
 
 {
   id: 10,
   title: "Ultrasonic Sensors Demystified: Precision in Motion Detection",
   image: "https://images.theengineeringprojects.com/image/main/2018/10/Introduction-to-HC-SR04.jpg",
-  insta: "https://www.instagram.com/_quarky/",
   tags: ["Ultrasonic Sensor", "Distance Measurement", "IoT"],
   category: "Sensors",
-  author: "Sarthak Tripathi",
+  author: [
+      { name: "Sarthak Tripathi", insta: "https://www.instagram.com/_quarky/" }
+    ],
   date: "2025-08-17",
   readTime: "7 min read",
   excerpt: "An ultrasonic sensor measures distance using sound waves, enabling precise obstacle detection and ranging in robotics, IoT devices, and automation systems.",
@@ -1612,10 +1626,12 @@ Ultrasonic sensing proves that sometimes, machines don’t need eyes to “see�
   id: 11,
   title: "Brushed DC Motor Demystified: Reliable Power in Motion",
   image: "https://images.theengineeringprojects.com/image/main/2015/05/f36f957f72a093559175396d0ab32c18.jpg",
-  insta: "https://www.instagram.com/sshhambhavii/",
   tags: ["DC Motor", "Motion Control", "Robotics"],
   category: "Hardware",
-  author: "Aadya Mudgal & Shambhavi Sharma",
+  author: [
+      { name: "Aadya Mudgal", insta: "https://www.instagram.com/aady4core/" },
+      { name: "Shambhavi Sharma", insta: "https://www.instagram.com/sshhambhavii/" }
+    ],
   date: "2025-08-24",
   readTime: "6 min read",
   excerpt: "Brushed DC motors provide straightforward speed and torque control, making them ideal for robotics, automation, and low-cost motion systems.",
