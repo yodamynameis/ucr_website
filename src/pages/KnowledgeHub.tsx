@@ -129,6 +129,20 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+
+    {
+    id: 12,
+    title: "LCD Display Module: Giving Your Projects a Voice",
+    authors: [
+      { name: "Ipsita Jain", insta: "https://www.instagram.com/me_pistaa/" },
+    ],
+    date: "2025-08-31",
+    category: "Hardware",
+  tags: ["LCD", "Displays", "I2C"],
+    excerpt: "Character LCDs like the 16×2 and 20×4 make it easy to show sensor values, menus, and status messages. Learn pinouts, 4-bit wiring vs I²C backpacks, common libraries, and tips for contrast, backlight, and custom characters.",
+    readTime: "8 min read",
+    image: "https://docs.arduino.cc/static/7a7f1f877f04d48236ab166814aab58f/0a47e/lcd_photo.png"
+  },
   {
     id: 11,
     title: "Brushed DC Motor Demystified: Reliable Power in Motion",
