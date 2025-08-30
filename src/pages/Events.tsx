@@ -31,7 +31,7 @@ const Events = () => {
       location: "To be announced" ,
       category: "workshop",
       //participants: ,
-      description: "Orientation for the Freashers of 2k25 batch",
+      description: "Orientation for the Freshers of 2k25 batch",
       image: orientation
     }
     // {
