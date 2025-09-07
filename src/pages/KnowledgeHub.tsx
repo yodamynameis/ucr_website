@@ -129,7 +129,19 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
-
+    {
+    id: 13,
+    title: "Lithium-Ion Battery Demystified: Powering the Modern World",
+    authors: [
+      { name: "Vansh Singhal", insta: "https://www.instagram.com/vanshhh_singhal09/" },
+    ],
+    date: "2025-09-07",
+    category: "Hardware",
+    tags: ["Battery", "Energy Storage", "Lithium-Ion"],
+    excerpt: "Lithium-ion batteries power everything from smartphones to electric vehicles. Explore how they work, their chemistry, charging cycles, safety considerations, and the future of battery technology in powering the modern world.",
+    readTime: "10 min read",
+    image: "https://isieindia.com/wp-content/uploads/2024/10/Li-Ion-Rechargeable-Battery.jpg"
+  },
     {
     id: 12,
     title: "LCD Display Module: Giving Your Projects a Voice",
