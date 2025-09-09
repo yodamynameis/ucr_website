@@ -128,19 +128,19 @@ const Team = () => {
       instagram: "https://www.instagram.com/katiyar_shivansh_2k05/",
       email: "katiyarshivansh1245@gmail.com"
     },
-    {
-      id: 8,
-      name: "Krishna Gupta",
-      role: "Secretary",
-      category: "leadership",
-      branch: "Computer Science Engineering",
-      image: krishna,       
-      bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
-      github: "https://github.com/krishnagupta03",
-      linkedin: "http://linkedin.com/in/krishna-gupta-031411303",
-      instagram: "https://www.instagram.com/krishna.x18",
-      email: "krishna30.k30@gmail.com"
-    },
+    // {
+    //   id: 8,
+    //   name: "Krishna Gupta",
+    //   role: "Secretary",
+    //   category: "leadership",
+    //   branch: "Computer Science Engineering",
+    //   image: krishna,       
+    //   bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
+    //   github: "https://github.com/krishnagupta03",
+    //   linkedin: "http://linkedin.com/in/krishna-gupta-031411303",
+    //   instagram: "https://www.instagram.com/krishna.x18",
+    //   email: "krishna30.k30@gmail.com"
+    // },
        {
       id: 15,
       name: "Kamna Thakur",
@@ -195,19 +195,19 @@ const Team = () => {
       instagram: "https://www.instagram.com/rishabh.kapur/",
       email: "kapur.rishabh13102003@gmail.com"
     },
-      {
-      id: 12,
-      name: "Annanya Priyadarshini",
-      role: "Technical Head",
-      category: "tech",
-      branch: "Electronics & Communication Engineering",
-      image: ananya,
-      bio: "Drives innovation with sharp technical skills, creative vision, and a passion for impactful solutions.",
-      github: "https://github.com/Annanya-pS",
-      linkedin: "http://www.linkedin.com/in/annanya-priyadarshini-sahoo-4663972a1",
-      instagram: "https://www.instagram.com/annanya_ps?igsh=ZzVub2E0cGdseHph",
-      email: "annanyapsahoo2020@gmail.com"
-    },
+    //   {
+    //   id: 12,
+    //   name: "Annanya Priyadarshini",
+    //   role: "Technical Head",
+    //   category: "tech",
+    //   branch: "Electronics & Communication Engineering",
+    //   image: ananya,
+    //   bio: "Drives innovation with sharp technical skills, creative vision, and a passion for impactful solutions.",
+    //   github: "https://github.com/Annanya-pS",
+    //   linkedin: "http://www.linkedin.com/in/annanya-priyadarshini-sahoo-4663972a1",
+    //   instagram: "https://www.instagram.com/annanya_ps?igsh=ZzVub2E0cGdseHph",
+    //   email: "annanyapsahoo2020@gmail.com"
+    // },
       {
       id: 13,
       name: "Maanya Gupta",
