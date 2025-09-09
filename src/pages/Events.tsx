@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin, ArrowRight, Filter } from 'lucide-react';
 import FlipCard from "../components/FlipCard";
 import { Link } from 'react-router-dom';
-import orientation from '../assets/orientation.png'; // Adjust the path as necessary
+import orientation from '../assets/orientation.jpg'; // Adjust the path as necessary
 import img1 from '../assets/img1.jpg';
 import img2 from '../assets/img2.jpg';
 import img3 from '../assets/img3.jpg';
@@ -26,9 +26,9 @@ const Events = () => {
      {
       id: 2,
       title: "Orientation Workshop 2k25", 
-      date: "20-08-2025",   // Adjusted date format to match the example
-      time: "To be announced",
-      location: "To be announced" ,
+      date: "09-11-2025",   // Adjusted date format to match the example
+      time: "5:00 PM onwards",
+      location: "LT-3" ,
       category: "workshop",
       //participants: ,
       description: "Orientation for the Freshers of 2k25 batch",
