@@ -128,6 +128,19 @@ const Team = () => {
       instagram: "https://www.instagram.com/katiyar_shivansh_2k05/",
       email: "katiyarshivansh1245@gmail.com"
     },
+    {
+      id: 8,
+      name: "Mahima Ancy Verghese",
+      role: "Secretary",
+      category: "leadership",
+      branch: "Electronics & Communication Engineering",
+      image: mahima,
+      bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
+      github: "https://github.com/Mahima9186",
+      linkedin: "https://www.linkedin.com/in/mahima-ancy-verghese-75214b370",
+      instagram: "https://www.instagram.com/ancy.mahima",
+      email: "mahima.ancy@gmail.com"
+    },
     // {
     //   id: 8,
     //   name: "Krishna Gupta",
@@ -357,19 +370,7 @@ const Team = () => {
     },
      
     // Creative Team
-    {
-      id: 25,
-      name: "Mahima Ancy Verghese",
-      role: "Creative Head",
-      category: "creative",
-      branch: "Electronics & Communication Engineering",
-      image: mahima,
-      bio: "Oversees design, aesthetics, and creative media for robotics events, workshops, and public engagement.",
-      github: "https://github.com/Mahima9186",
-      linkedin: "https://www.linkedin.com/in/mahima-ancy-verghese-75214b370",
-      instagram: "https://www.instagram.com/ancy.mahima",
-      email: "mahima.ancy@gmail.com"
-    },
+    
       {
       id: 26,
       name: "Anshika Aggarwal",
