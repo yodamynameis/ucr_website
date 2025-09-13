@@ -130,6 +130,21 @@ const KnowledgeHub = () => {
 
   const techBlogs = [
     {
+    id: 14,
+    title: "Bluetooth Module: Cutting the Wires, Connecting the World",
+    authors: [
+      { name: "Isha Bhargava", insta: "https://www.instagram.com/ishaabhargava/" },
+      { name: "Ragya Jain", insta: "/NotFound" }, 
+    ],
+    date: "2025-09-14",
+    category: "Hardware",
+    tags: ["Bluetooth", "Wireless Communication", "IoT"],
+  excerpt: "Bluetooth modules have revolutionized the way devices connect by eliminating the need for wires. Learn how Bluetooth technology works, its protocols, versions, applications in IoT, and its role in enabling seamless wireless communication across the globe.",
+    readTime: "8 min read",
+    image: "https://media.geeksforgeeks.org/wp-content/uploads/20200524231402/hc051.jpg"
+  },
+
+    {
     id: 13,
     title: "Lithium-Ion Battery Demystified: Powering the Modern World",
     authors: [
