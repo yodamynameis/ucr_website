@@ -129,6 +129,20 @@ const KnowledgeHub = () => {
   ];
 
   const techBlogs = [
+     {
+    id: 15,
+    title: "Keypad Matrix Module Demystified: Smarter Input, Fewer Pins",
+    authors: [
+      { name: "Prisha Bhatia", insta: "https://www.instagram.com/prishabhatia_/" },
+      { name: "Parth Singh", insta: "https://www.instagram.com/parth_singh723" }, 
+    ],
+    date: "2025-09-21",
+    category: "Hardware",
+  tags: ["Keypad", "Input", "Embedded"],
+  excerpt: "A keypad matrix is a simple and efficient input device that reduces wiring by arranging keys in rows and columns, widely used in embedded systems and microcontroller projects.",
+    readTime: "10 min read",
+    image: "https://eph.com.pk/wp-content/uploads/2024/06/SW-KEYPAD-MEM-4X4-800x800-1.jpg"
+  },
     {
     id: 14,
     title: "Bluetooth Module: Cutting the Wires, Connecting the World",
