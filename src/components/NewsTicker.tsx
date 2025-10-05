@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 const NewsTicker = () => {
   const news = [
-    { text: "🎉 Orientation 2k25 Registrations are Now Open!", url: "/joinus" },
     { text: "🆕 New Team Announced", url: "/team" },
     { text: "🤖 Volunteer Team Out Now!!", url: "https://www.instagram.com/p/DMDCINZJqao/?img_index=1" },
   ];
