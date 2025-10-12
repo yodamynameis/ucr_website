@@ -53,9 +53,9 @@ const Team = () => {
       category: "advisor",
       branch: "Integrated Computer Science Engineering",
       image: ujjawal, 
-      bio: "Always ready to guide, with a heart for innovation and student growth.",
+      bio: "Fosters innovation and student growth through thoughtful mentorship, applied robotics, and collaborative learning.",
       github:"https://github.com/ujjawalgarg7",
-      linkedin: "https://www.linkedin.com/in/ujjawal-garg-588585202 ",
+      linkedin: "www.linkedin.com/in/ujjawalgarg0712",
       instagram: "https://www.instagram.com/ujjawal.garg7",
       email: "ujjawalgarg7@gmail.com"
     },
